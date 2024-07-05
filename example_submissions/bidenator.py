@@ -149,7 +149,7 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
         return game.move_place_initial_troop(query, in_danger_territory)
     else:
         # We will place troops along the territories on our border.
-        border_sa_territories = border_territories & set([31,30,28,30])
+        border_sa_territories = border_territories & set([31,30,28,29])
         in_danger_territory = max(border_sa_territories, key=lambda x: threat(game,x))
         print(f"not in control of SA,, most in danger territory is {in_danger_territory}")
         return game.move_place_initial_troop(query, in_danger_territory)
@@ -330,7 +330,6 @@ def handle_defend(game: Game, bot_state: BotState, query: QueryDefend) -> MoveDe
 def handle_fortify(game: Game, bot_state: BotState, query: QueryFortify) -> Union[MoveFortify, MoveFortifyPass]:
     """At the end of your turn, after you have finished attacking, you may move a number of troops between
     any two of your territories (they must be adjacent)."""
-
 
     # We will always fortify towards the most powerful player (player with most troops on the map) to defend against them.
     my_territories = game.state.get_territories_owned_by(game.state.me.player_id)
