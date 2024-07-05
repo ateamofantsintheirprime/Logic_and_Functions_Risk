@@ -31,6 +31,7 @@ class BotState():
     def __init__(self):
         self.enemy: Optional[int] = None
         self.controlling_SA = False
+        self.controlling_NA = False
 
 
 def main():
@@ -47,6 +48,7 @@ def main():
         query = game.get_next_query()
 
         bot_state.controlling_SA = check_if_controlling_sa(game)
+        bot_state.controlling_NA = check_if_controlling_na(game)
 
         # Based on the type of query, respond with the correct move.
         def choose_move(query: QueryType) -> MoveType:
@@ -140,7 +142,6 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
 
     if bot_state.controlling_SA:
         american_borders = set([0,1,2,3,4,5,6,7]) & border_territories
-        enforcement_targets.extend(american_borders)
         enforcement_targets.extend(american_borders)
         if 36 in my_territories:
             enforcement_targets.append(36)
@@ -361,6 +362,11 @@ def handle_fortify(game: Game, bot_state: BotState, query: QueryFortify) -> Unio
 def check_if_controlling_sa(game:Game):
     my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
     sa = set([30,31,29,28])
+    return set(sa).issubset(my_territories)
+
+def check_if_controlling_na(game:Game):
+    my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
+    sa = set([0,1,2,3,4,5,6,7])
     return set(sa).issubset(my_territories)
 
 def threat(game:Game, victim:int):
