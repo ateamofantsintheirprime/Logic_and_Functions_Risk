@@ -141,6 +141,7 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
     if bot_state.controlling_SA:
         american_borders = set([0,1,2,3,4,5,6,7]) & border_territories
         enforcement_targets.extend(american_borders)
+        enforcement_targets.extend(american_borders)
         if 36 in my_territories:
             enforcement_targets.append(36)
         else:
