@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/blake/Documents/Programming/SyncsBotBattle2024/Logic_and_Functions_Risk/submission4/submission.py", line 775, in <module>
+    main()
+  File "/Users/blake/Documents/Programming/SyncsBotBattle2024/Logic_and_Functions_Risk/submission4/submission.py", line 92, in main
+    game.send_move(choose_move(query))
+                   ^^^^^^^^^^^^^^^^^^
+  File "/Users/blake/Documents/Programming/SyncsBotBattle2024/Logic_and_Functions_Risk/submission4/submission.py", line 80, in choose_move
+    return handle_attack(game, bot_state, q)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blake/Documents/Programming/SyncsBotBattle2024/Logic_and_Functions_Risk/submission4/submission.py", line 469, in handle_attack
+    new_handle_attack(game,bot_state,query)
+  File "/Users/blake/Documents/Programming/SyncsBotBattle2024/Logic_and_Functions_Risk/submission4/submission.py", line 455, in new_handle_attack
+    for sub_path in sol: 
+                    ^^^
+UnboundLocalError: cannot access local variable 'sol' where it is not associated with a value

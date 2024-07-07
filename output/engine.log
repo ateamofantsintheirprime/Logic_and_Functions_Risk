@@ -1,0 +1,3 @@
+[engine] recording match: 127
+[engine] recording match: 157
+[engine]: match complete, outcome was {result_type='PLAYER_BANNED' ban_type='TIMEOUT' player=4 reason='You took too long to respond.'}

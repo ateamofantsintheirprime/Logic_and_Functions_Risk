@@ -1,6 +1,7 @@
 #!/bin/bash
 
-directory=$(realpath $(dirname "$0")) 
+# directory=$(realpath $(dirname "$0")) 
+directory="."
 
 # Create a python virtual environment and install the packages.
 python3 -m venv "$directory/.venv"
