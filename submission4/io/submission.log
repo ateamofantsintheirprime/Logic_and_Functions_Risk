@@ -1,81 +1,63 @@
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 war focus: {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories: {2, 3, 40, 23, 28, 29, 30, 31}
+my_territories: {2, 3, 20, 21, 28, 29, 30, 31}
 enforcement_targets: {2, 3}
 potential deathstacks: {2, 3, 30}
 dict_items([(29, 1), (2, 4), (3, 0), (30, 0)])
-STARTING TURN  238
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 28, 29, 30, 31}
-starting points:  [[2], [3]]
-starting point power: 23
-enemy territories in war focus: {0, 1, 4, 5, 6, 7, 8}
-war_focus_enemy_power: 19
-exceeding max search depth
-exceeding max search depth
-exceeding max search depth
-exceeding max search depth
-exceeding max search depth
-exceeding max search depth
-exceeding max search depth
-found 251, potential solutions
-sol: [[2, 8, 1, 0], [3, 7, 4, 6, 5]]
-attacking from 2 to 8 with 3 troops
-13
-STARTING TURN  241
+STARTING TURN  178
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
 my_territories:  {2, 3, 28, 29, 30, 31}
 starting points:  [[2], [3]]
 starting point power: 22
 enemy territories in war focus: {0, 1, 4, 5, 6, 7, 8}
-war_focus_enemy_power: 18
+war_focus_enemy_power: 12
 exceeding max search depth
 exceeding max search depth
 exceeding max search depth
@@ -83,17 +65,21 @@ exceeding max search depth
 exceeding max search depth
 exceeding max search depth
 exceeding max search depth
-found 251, potential solutions
-sol: [[2, 8, 1, 0], [3, 7, 4, 6, 5]]
+exceeding max search depth
+exceeding max search depth
+exceeding max search depth
+exceeding max search depth
+found 319, potential solutions
+sol: [[2, 8, 6, 1, 5, 0], [3, 7, 4]]
 attacking from 3 to 7 with 3 troops
-8
-STARTING TURN  244
+7
+STARTING TURN  181
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
 my_territories:  {2, 3, 28, 29, 30, 31}
 starting points:  [[2], [3]]
-starting point power: 20
+starting point power: 22
 enemy territories in war focus: {0, 1, 4, 5, 6, 7, 8}
-war_focus_enemy_power: 18
+war_focus_enemy_power: 10
 exceeding max search depth
 exceeding max search depth
 exceeding max search depth
@@ -104,548 +90,976 @@ exceeding max search depth
 exceeding max search depth
 exceeding max search depth
 exceeding max search depth
-exceeding max search depth
-exceeding max search depth
-found 34, potential solutions
-sol: [[2, 8, 1, 0, 5, 4], [3, 6, 7]]
+found 380, potential solutions
+sol: [[2, 8, 1, 0], [3, 7, 6, 4, 5]]
 attacking from 2 to 8 with 3 troops
-12
-moving 12
-STARTING TURN  249
+13
+moving 13
+STARTING TURN  186
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
 my_territories:  {2, 3, 8, 28, 29, 30, 31}
 starting points:  [[8], [3]]
-starting point power: 19
+starting point power: 21
 enemy territories in war focus: {0, 1, 4, 5, 6, 7}
-war_focus_enemy_power: 16
-found 50, potential solutions
-sol: [[8, 1, 0, 5, 4], [3, 7, 6]]
+war_focus_enemy_power: 8
+exceeding max search depth
+exceeding max search depth
+exceeding max search depth
+exceeding max search depth
+exceeding max search depth
+exceeding max search depth
+found 381, potential solutions
+sol: [[8, 1, 0], [3, 7, 6, 5, 4]]
 attacking from 8 to 1 with 3 troops
-11
-moving 11
-STARTING TURN  254
+12
+moving 12
+STARTING TURN  191
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
 my_territories:  {1, 2, 3, 8, 28, 29, 30, 31}
 starting points:  [[1], [3]]
-starting point power: 18
+starting point power: 20
 enemy territories in war focus: {0, 4, 5, 6, 7}
-war_focus_enemy_power: 15
-found 20, potential solutions
-sol: [[1, 0, 5, 4], [3, 7, 6]]
+war_focus_enemy_power: 7
+found 183, potential solutions
+sol: [[1, 0], [3, 7, 6, 5, 4]]
+attacking from 1 to 0 with 3 troops
+11
+STARTING TURN  194
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {1, 2, 3, 8, 28, 29, 30, 31}
+starting points:  [[1], [3]]
+starting point power: 19
+enemy territories in war focus: {0, 4, 5, 6, 7}
+war_focus_enemy_power: 7
+found 183, potential solutions
+sol: [[1, 0], [3, 7, 6, 5, 4]]
 attacking from 1 to 0 with 3 troops
 10
-STARTING TURN  257
+moving 10
+STARTING TURN  199
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 8, 28, 29, 30, 31}
-starting points:  [[1], [3]]
-starting point power: 17
-enemy territories in war focus: {0, 4, 5, 6, 7}
-war_focus_enemy_power: 14
-found 20, potential solutions
-sol: [[1, 0, 5, 4], [3, 7, 6]]
-attacking from 1 to 0 with 3 troops
-9
-STARTING TURN  260
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 8, 28, 29, 30, 31}
-starting points:  [[1], [3]]
-starting point power: 17
-enemy territories in war focus: {0, 4, 5, 6, 7}
-war_focus_enemy_power: 12
-found 60, potential solutions
-sol: [[1, 0, 5, 4], [3, 7, 6]]
-attacking from 3 to 7 with 3 troops
-6
-STARTING TURN  263
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 8, 28, 29, 30, 31}
-starting points:  [[1], [3]]
-starting point power: 17
-enemy territories in war focus: {0, 4, 5, 6, 7}
-war_focus_enemy_power: 10
-found 170, potential solutions
-sol: [[1, 0], [3, 7, 6, 5, 4]]
-attacking from 1 to 0 with 3 troops
-9
-STARTING TURN  266
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 8, 28, 29, 30, 31}
-starting points:  [[1], [3]]
-starting point power: 15
-enemy territories in war focus: {0, 4, 5, 6, 7}
-war_focus_enemy_power: 10
-found 135, potential solutions
-sol: [[1, 0], [3, 7, 6, 5, 4]]
-attacking from 3 to 7 with 3 troops
-6
-moving 6
-STARTING TURN  271
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [7]]
-starting point power: 14
-enemy territories in war focus: {0, 4, 5, 6}
-war_focus_enemy_power: 9
-found 44, potential solutions
-sol: [[1, 0], [7, 6, 5, 4]]
-attacking from 1 to 0 with 3 troops
-7
-STARTING TURN  274
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [7]]
-starting point power: 12
-enemy territories in war focus: {0, 4, 5, 6}
-war_focus_enemy_power: 9
-found 40, potential solutions
-sol: [[1, 0], [7, 6, 5, 4]]
-attacking from 1 to 0 with 3 troops
-5
-STARTING TURN  277
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [7]]
-starting point power: 11
-enemy territories in war focus: {0, 4, 5, 6}
-war_focus_enemy_power: 8
-found 44, potential solutions
-sol: [[1, 0], [7, 6, 5, 4]]
-attacking from 7 to 6 with 3 troops
-5
-STARTING TURN  280
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [7]]
-starting point power: 11
-enemy territories in war focus: {0, 4, 5, 6}
+my_territories:  {0, 1, 2, 3, 8, 28, 29, 30, 31}
+starting points:  [[0], [3]]
+starting point power: 18
+enemy territories in war focus: {4, 5, 6, 7}
 war_focus_enemy_power: 6
-found 44, potential solutions
-sol: [[1, 0], [7, 6, 5, 4]]
-attacking from 1 to 0 with 3 troops
-4
-STARTING TURN  283
+found 56, potential solutions
+sol: [[3, 7, 6, 5, 4]]
+attacking from 3 to 7 with 3 troops
+7
+moving 7
+STARTING TURN  204
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [7]]
-starting point power: 10
-enemy territories in war focus: {0, 4, 5, 6}
+my_territories:  {0, 1, 2, 3, 7, 8, 28, 29, 30, 31}
+starting points:  [[0], [7]]
+starting point power: 17
+enemy territories in war focus: {4, 5, 6}
 war_focus_enemy_power: 5
-found 46, potential solutions
-sol: [[1, 0], [7, 6, 5, 4]]
+found 18, potential solutions
+sol: [[7, 6, 5, 4]]
+attacking from 7 to 6 with 3 troops
+6
+STARTING TURN  207
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {0, 1, 2, 3, 7, 8, 28, 29, 30, 31}
+starting points:  [[0], [7]]
+starting point power: 16
+enemy territories in war focus: {4, 5, 6}
+war_focus_enemy_power: 4
+found 18, potential solutions
+sol: [[7, 6, 5, 4]]
 attacking from 7 to 6 with 3 troops
 5
-STARTING TURN  286
+STARTING TURN  210
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [7]]
-starting point power: 9
-enemy territories in war focus: {0, 4, 5, 6}
-war_focus_enemy_power: 5
-found 44, potential solutions
-sol: [[1, 0], [7, 6, 5, 4]]
-attacking from 7 to 6 with 3 troops
-4
-moving 4
-STARTING TURN  291
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [6]]
-starting point power: 8
-enemy territories in war focus: {0, 4, 5}
+my_territories:  {0, 1, 2, 3, 7, 8, 28, 29, 30, 31}
+starting points:  [[0], [7]]
+starting point power: 14
+enemy territories in war focus: {4, 5, 6}
 war_focus_enemy_power: 4
-found 12, potential solutions
-sol: [[1, 0], [6, 5, 4]]
-attacking from 6 to 5 with 3 troops
+found 14, potential solutions
+sol: [[0, 5], [7, 6, 4]]
+attacking from 7 to 6 with 3 troops
 3
-moving 3
-STARTING TURN  296
+STARTING TURN  213
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[1], [5]]
-starting point power: 7
-enemy territories in war focus: {0, 4}
+my_territories:  {0, 1, 2, 3, 7, 8, 28, 29, 30, 31}
+starting points:  [[0], [7]]
+starting point power: 13
+enemy territories in war focus: {4, 5, 6}
+war_focus_enemy_power: 3
+found 14, potential solutions
+sol: [[0, 5], [7, 6, 4]]
+attacking from 7 to 6 with 2 troops
+2
+STARTING TURN  216
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {0, 1, 2, 3, 7, 8, 28, 29, 30, 31}
+starting points:  [[0]]
+starting point power: 10
+enemy territories in war focus: {4, 5, 6}
 war_focus_enemy_power: 3
 found 2, potential solutions
-sol: [[1, 0], [5, 4]]
-attacking from 1 to 0 with 3 troops
-3
-STARTING TURN  299
+sol: [[0, 5, 6, 4]]
+attacking from 0 to 5 with 3 troops
+9
+moving 9
+STARTING TURN  221
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[5]]
-starting point power: 3
-enemy territories in war focus: {0, 4}
-war_focus_enemy_power: 3
-heuristic based check failed
-potential deathstacks: {1, 2, 3, 5, 6, 7, 8, 30}
-dict_items([(6, 1), (7, 1), (1, 0), (2, 0), (3, 0), (5, 3), (8, 0), (30, 0)])
-STARTING TURN  351
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 3, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[5]]
-starting point power: 6
-enemy territories in war focus: {0, 4}
-war_focus_enemy_power: 6
-heuristic based check failed
-potential deathstacks: {1, 2, 5, 7, 8, 30}
-dict_items([(2, 1), (8, 1), (1, 0), (5, 3), (7, 0), (30, 0)])
-STARTING TURN  419
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 5, 7, 8, 28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 5, 7, 8, 28, 29, 30, 31}
 starting points:  [[5]]
 starting point power: 9
-enemy territories in war focus: {0, 3, 4, 6}
-war_focus_enemy_power: 10
-heuristic based check failed
-potential deathstacks: {1, 2, 5, 7, 8, 30}
-dict_items([(1, 0), (2, 0), (5, 5), (7, 0), (8, 0), (30, 0)])
-STARTING TURN  449
+enemy territories in war focus: {4, 6}
+war_focus_enemy_power: 2
+found 2, potential solutions
+sol: [[5, 6, 4]]
+attacking from 5 to 6 with 3 troops
+8
+moving 8
+STARTING TURN  226
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {1, 2, 5, 7, 8, 28, 29, 30, 31}
-starting points:  [[5]]
-starting point power: 14
-enemy territories in war focus: {0, 3, 4, 6}
-war_focus_enemy_power: 17
-heuristic based check failed
-dict_items([(8, 0), (1, 0), (7, 0), (5, 3)])
-STARTING TURN  563
-war focus:  {28, 29, 30, 31}
-my_territories:  {8, 1, 5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 5
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  635
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 8
+enemy territories in war focus: {4}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[6, 4]]
+attacking from 6 to 4 with 3 troops
+7
+moving 7
+STARTING TURN  231
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 7
+enemy territories in war focus: {10, 21}
 war_focus_enemy_power: 4
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  787
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 5
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  892
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 9
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  969
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 9
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1031
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 9
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1155
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 1), (1, 0), (2, 0), (3, 0), (4, 10), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  310
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 17
+enemy territories in war focus: {10, 21}
 war_focus_enemy_power: 7
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1295
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 9
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1425
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 6
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1568
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 4
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1671
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 9
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1731
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 9
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1845
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 4
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  1983
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 4
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  2062
-war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  428
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 28
+enemy territories in war focus: {10, 21}
 war_focus_enemy_power: 10
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  2121
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  512
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 39
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 8
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  583
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 50
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 3
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  682
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 61
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 9
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  764
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 72
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 9
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  837
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 83
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 8
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  909
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 94
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 14
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  975
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 105
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 10
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  1081
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 116
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 12
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {2, 28, 30, 31}
+dict_items([(28, 7), (30, 1), (31, 1), (2, 0)])
+STARTING TURN  1200
 war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 30, 31}
+starting points:  [[28]]
+starting point power: 8
+enemy territories in war focus: {29}
+war_focus_enemy_power: 8
+heuristic based check failed
+potential deathstacks: {28, 31}
+dict_items([(6, 1), (8, 1), (28, 1), (31, 0)])
+STARTING TURN  1304
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 4, 5, 6, 7, 8, 28, 31}
+starting points:  [[28]]
+starting point power: 9
+enemy territories in war focus: {29, 30}
+war_focus_enemy_power: 2
+found 1, potential solutions
+sol: [[28, 29, 30]]
+attacking from 28 to 29 with 3 troops
+8
+STARTING TURN  1307
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 4, 5, 6, 7, 8, 28, 31}
+starting points:  [[28]]
+starting point power: 8
+enemy territories in war focus: {29, 30}
+war_focus_enemy_power: 2
+found 1, potential solutions
+sol: [[28, 29, 30]]
+attacking from 28 to 29 with 3 troops
+7
+moving 7
+STARTING TURN  1312
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 4, 5, 6, 7, 8, 28, 29, 31}
+starting points:  [[29]]
+starting point power: 7
+enemy territories in war focus: {30}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[29, 30]]
+attacking from 29 to 30 with 3 troops
+6
+STARTING TURN  1315
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 4, 5, 6, 7, 8, 28, 29, 31}
+starting points:  [[29]]
+starting point power: 6
+enemy territories in war focus: {30}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[29, 30]]
+attacking from 29 to 30 with 3 troops
+5
+STARTING TURN  1318
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 4, 5, 6, 7, 8, 28, 29, 31}
+starting points:  [[29]]
+starting point power: 5
+enemy territories in war focus: {30}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[29, 30]]
+attacking from 29 to 30 with 3 troops
+4
+moving 4
+STARTING TURN  1323
+war focus:  {2, 28, 29, 30, 31}
+my_territories:  {0, 1, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[30]]
+starting point power: 4
+enemy territories in war focus: {2}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[30, 2]]
+attacking from 30 to 2 with 3 troops
+3
+moving 3
+STARTING TURN  1328
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {0, 1, 2, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[2], [4]]
+starting point power: 119
+enemy territories in war focus: {3}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[2, 3]]
+attacking from 2 to 3 with 2 troops
+2
+moving 2
+STARTING TURN  1333
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 116
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 20
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(29, 1), (0, 0), (1, 0), (2, 0), (3, 0), (4, 10), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  1411
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 126
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 22
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 0), (1, 0), (2, 0), (3, 0), (4, 11), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  1517
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 137
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 22
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(5, 1), (2, 0), (3, 0), (4, 4), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  1612
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 141
+enemy territories in war focus: {0, 1}
+war_focus_enemy_power: 4
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {2, 3, 4, 7, 8, 30}
+dict_items([(2, 0), (3, 0), (4, 5), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  1689
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 146
+enemy territories in war focus: {0, 1, 5, 6}
+war_focus_enemy_power: 19
+found 6, potential solutions
+sol: [[4, 6, 5, 1, 0]]
+attacking from 4 to 6 with 3 troops
+145
+STARTING TURN  1692
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 146
+enemy territories in war focus: {0, 1, 5, 6}
 war_focus_enemy_power: 17
-heuristic based check failed
-dict_items([(7, 0), (5, 3)])
-STARTING TURN  2216
+found 6, potential solutions
+sol: [[4, 6, 5, 1, 0]]
+attacking from 4 to 6 with 3 troops
+145
+STARTING TURN  1695
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 145
+enemy territories in war focus: {0, 1, 5, 6}
+war_focus_enemy_power: 16
+found 6, potential solutions
+sol: [[4, 6, 5, 1, 0]]
+attacking from 4 to 6 with 3 troops
+144
+STARTING TURN  1698
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 143
+enemy territories in war focus: {0, 1, 5, 6}
+war_focus_enemy_power: 16
+found 6, potential solutions
+sol: [[4, 6, 5, 1, 0]]
+attacking from 4 to 6 with 3 troops
+142
+STARTING TURN  1701
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 142
+enemy territories in war focus: {0, 1, 5, 6}
+war_focus_enemy_power: 15
+found 6, potential solutions
+sol: [[4, 6, 5, 1, 0]]
+attacking from 4 to 6 with 3 troops
+141
+STARTING TURN  1704
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 7, 8, 28, 29, 30, 31}
+starting points:  [[4]]
+starting point power: 142
+enemy territories in war focus: {0, 1, 5, 6}
+war_focus_enemy_power: 13
+found 6, potential solutions
+sol: [[4, 6, 5, 1, 0]]
+attacking from 4 to 6 with 3 troops
+141
+moving 141
+STARTING TURN  1709
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 141
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 11
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+140
+STARTING TURN  1712
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 139
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 11
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+138
+STARTING TURN  1715
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 138
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 10
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+137
+STARTING TURN  1718
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 137
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 9
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+136
+STARTING TURN  1721
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 136
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 8
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+135
+STARTING TURN  1724
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 135
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 7
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+134
+STARTING TURN  1727
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 134
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 6
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+133
+STARTING TURN  1730
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 134
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 4
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+133
+STARTING TURN  1733
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[6]]
+starting point power: 133
+enemy territories in war focus: {0, 1, 5}
+war_focus_enemy_power: 3
+found 4, potential solutions
+sol: [[6, 5, 1, 0]]
+attacking from 6 to 5 with 3 troops
+132
+moving 132
+STARTING TURN  1738
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[5]]
+starting point power: 132
+enemy territories in war focus: {0, 1}
+war_focus_enemy_power: 2
+found 2, potential solutions
+sol: [[5, 1, 0]]
+attacking from 5 to 1 with 3 troops
+131
+STARTING TURN  1741
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[5]]
+starting point power: 131
+enemy territories in war focus: {0, 1}
+war_focus_enemy_power: 2
+found 2, potential solutions
+sol: [[5, 1, 0]]
+attacking from 5 to 1 with 3 troops
+130
+moving 130
+STARTING TURN  1746
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[1]]
+starting point power: 130
+enemy territories in war focus: {0}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[1, 0]]
+attacking from 1 to 0 with 3 troops
+129
+STARTING TURN  1749
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[1]]
+starting point power: 129
+enemy territories in war focus: {0}
+war_focus_enemy_power: 1
+found 1, potential solutions
+sol: [[1, 0]]
+attacking from 1 to 0 with 3 troops
+128
+moving 128
+STARTING TURN  1754
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[0]]
+starting point power: 128
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 30
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(4, 1), (0, 10), (1, 0), (2, 0), (3, 0), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  1833
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[0]]
+starting point power: 138
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 38
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 11), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  1925
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[0]]
+starting point power: 149
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 46
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 11), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  2023
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[0]]
+starting point power: 160
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 50
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {0, 1, 2, 3, 4, 5, 6, 7, 8, 30}
+dict_items([(0, 71), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 0), (30, 0)])
+STARTING TURN  2065
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
+starting points:  [[0]]
+starting point power: 231
+enemy territories in war focus: {10, 21}
+war_focus_enemy_power: 73
+found 0, potential solutions
+sol: []
+no valid paths
+potential deathstacks: {2, 30, 31}
+dict_items([(30, 8), (2, 0), (31, 0)])
+STARTING TURN  2161
 war focus:  {28, 29, 30, 31}
-my_territories:  {5, 7}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 30, 31}
+starting points:  [[30]]
+starting point power: 9
+enemy territories in war focus: {28, 29}
+war_focus_enemy_power: 8
+found 1, potential solutions
+sol: [[30, 29, 28]]
+attacking from 30 to 29 with 3 troops
+8
+moving 8
+STARTING TURN  2166
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 29, 30, 31}
+starting points:  [[29]]
+starting point power: 8
+enemy territories in war focus: {28}
+war_focus_enemy_power: 7
+found 1, potential solutions
+sol: [[29, 28]]
+attacking from 29 to 28 with 3 troops
+7
+STARTING TURN  2169
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 29, 30, 31}
+starting points:  [[29]]
+starting point power: 8
+enemy territories in war focus: {28}
+war_focus_enemy_power: 5
+found 1, potential solutions
+sol: [[29, 28]]
+attacking from 29 to 28 with 3 troops
+7
+STARTING TURN  2172
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 29, 30, 31}
+starting points:  [[29]]
+starting point power: 6
+enemy territories in war focus: {28}
+war_focus_enemy_power: 5
+found 1, potential solutions
+sol: [[29, 28]]
+attacking from 29 to 28 with 3 troops
+5
+STARTING TURN  2175
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 29, 30, 31}
+starting points:  [[29]]
+starting point power: 5
+enemy territories in war focus: {28}
+war_focus_enemy_power: 4
+found 1, potential solutions
+sol: [[29, 28]]
+attacking from 29 to 28 with 3 troops
+4
+STARTING TURN  2178
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 29, 30, 31}
+starting points:  [[29]]
+starting point power: 4
+enemy territories in war focus: {28}
+war_focus_enemy_power: 3
+found 1, potential solutions
+sol: [[29, 28]]
+attacking from 29 to 28 with 3 troops
+3
+STARTING TURN  2181
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28}
+war_focus_enemy_power: 3
+heuristic based check failed
+dict_items([(3, 0), (7, 0), (0, 3)])
+STARTING TURN  2367
+war focus:  {28, 29, 30, 31}
+my_territories:  {0, 3, 7}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 17
+war_focus_enemy_power: 74
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2321
+dict_items([(3, 0), (7, 0), (0, 3)])
+STARTING TURN  2432
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0, 3, 7}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 51
+war_focus_enemy_power: 74
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2431
+dict_items([(3, 0), (7, 0), (0, 3)])
+STARTING TURN  2557
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0, 3, 7}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 64
+war_focus_enemy_power: 96
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2523
+dict_items([(7, 0), (0, 3)])
+STARTING TURN  2661
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 80
-heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2657
-war focus:  {28, 29, 30, 31}
-my_territories:  {5}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 84
-heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2750
-war focus:  {28, 29, 30, 31}
-my_territories:  {5}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 111
-heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2813
-war focus:  {28, 29, 30, 31}
-my_territories:  {5}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 126
-heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2896
-war focus:  {28, 29, 30, 31}
-my_territories:  {5}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 126
-heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  2973
-war focus:  {28, 29, 30, 31}
-my_territories:  {5}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 126
-heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3033
-war focus:  {28, 29, 30, 31}
-my_territories:  {5}
-starting points:  []
-starting point power: 0
-enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 125
-heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3099
-war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0, 7}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
 war_focus_enemy_power: 118
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3197
+dict_items([(0, 3)])
+STARTING TURN  2790
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 134
+war_focus_enemy_power: 130
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3266
+dict_items([(0, 3)])
+STARTING TURN  2850
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 134
+war_focus_enemy_power: 143
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3352
+dict_items([(0, 3)])
+STARTING TURN  2968
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 279
+war_focus_enemy_power: 137
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3477
+dict_items([(0, 3)])
+STARTING TURN  3026
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 279
+war_focus_enemy_power: 165
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3573
+dict_items([(0, 3)])
+STARTING TURN  3124
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 279
+war_focus_enemy_power: 164
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3686
+dict_items([(0, 3)])
+STARTING TURN  3181
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 279
+war_focus_enemy_power: 164
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3746
+dict_items([(0, 3)])
+STARTING TURN  3306
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 279
+war_focus_enemy_power: 188
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3809
+dict_items([(0, 3)])
+STARTING TURN  3402
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 319
+war_focus_enemy_power: 217
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3873
+dict_items([(0, 3)])
+STARTING TURN  3474
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 319
+war_focus_enemy_power: 217
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  3942
+dict_items([(0, 3)])
+STARTING TURN  3569
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 319
+war_focus_enemy_power: 192
 heuristic based check failed
-dict_items([(5, 3)])
-STARTING TURN  4941
+dict_items([(0, 3)])
+STARTING TURN  3665
 war focus:  {28, 29, 30, 31}
-my_territories:  {5}
+my_territories:  {0}
 starting points:  []
 starting point power: 0
 enemy territories in war focus: {28, 29, 30, 31}
-war_focus_enemy_power: 205
+war_focus_enemy_power: 280
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  3802
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 303
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  3897
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 193
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  3978
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 361
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  7525
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 68
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  8092
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 181
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  8444
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 183
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  9368
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 4
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  9729
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 4
+heuristic based check failed
+dict_items([(0, 3)])
+STARTING TURN  10530
+war focus:  {28, 29, 30, 31}
+my_territories:  {0}
+starting points:  []
+starting point power: 0
+enemy territories in war focus: {28, 29, 30, 31}
+war_focus_enemy_power: 4
 heuristic based check failed

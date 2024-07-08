@@ -281,15 +281,11 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
             distributions[current_deathstack] += total_troops
             total_troops = 0
             # Stick all remaining troops on the current largest deathstack in the war_focus
-    if total_troops > 0:
+    if total_troops > 0 and len(reinforcement_priorities):
         current_deathstack = max(reinforcement_priorities, key= lambda x: game.state.territories[x].troops + distributions[x] + 0.001 * threat(game, x))
         distributions[current_deathstack] += total_troops
-
-    print(distributions.items())
-
-    return game.move_distribute_troops(query, distributions)
-
-    if len(game.state.recording) < 4000:
+        total_troops = 0
+    if total_troops > 0:
         troops_per_territory = total_troops // len(border_territories)
         leftover_troops = total_troops % len(border_territories)
         for territory in border_territories:
@@ -297,25 +293,32 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
     
         # The leftover troops will be put some territory (we don't care)
         distributions[border_territories.pop()] += leftover_troops
-    
-    else:
-        my_territories = game.state.get_territories_owned_by(game.state.me.player_id)
-        weakest_players = sorted(game.state.players.values(), key=lambda x: sum(
-            [game.state.territories[y].troops for y in game.state.get_territories_owned_by(x.player_id)]
-        ))
 
-        for player in weakest_players:
-            bordering_enemy_territories = set(game.state.get_all_adjacent_territories(my_territories)) & set(game.state.get_territories_owned_by(player.player_id))
-            if len(bordering_enemy_territories) > 0:
-                print("my territories", [game.state.map.get_vertex_name(x) for x in my_territories])
-                print("bordering enemies", [game.state.map.get_vertex_name(x) for x in bordering_enemy_territories])
-                print("adjacent to target", [game.state.map.get_vertex_name(x) for x in game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])])
-                selected_territory = list(set(game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])) & set(my_territories))[0]
-                distributions[selected_territory] += total_troops
-                break
-
+    print(distributions.items())
 
     return game.move_distribute_troops(query, distributions)
+
+    # if len(game.state.recording) < 4000:
+        
+    
+    # else:
+    #     my_territories = game.state.get_territories_owned_by(game.state.me.player_id)
+    #     weakest_players = sorted(game.state.players.values(), key=lambda x: sum(
+    #         [game.state.territories[y].troops for y in game.state.get_territories_owned_by(x.player_id)]
+    #     ))
+
+    #     for player in weakest_players:
+    #         bordering_enemy_territories = set(game.state.get_all_adjacent_territories(my_territories)) & set(game.state.get_territories_owned_by(player.player_id))
+    #         if len(bordering_enemy_territories) > 0:
+    #             print("my territories", [game.state.map.get_vertex_name(x) for x in my_territories])
+    #             print("bordering enemies", [game.state.map.get_vertex_name(x) for x in bordering_enemy_territories])
+    #             print("adjacent to target", [game.state.map.get_vertex_name(x) for x in game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])])
+    #             selected_territory = list(set(game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])) & set(my_territories))[0]
+    #             distributions[selected_territory] += total_troops
+    #             break
+
+
+    # return game.move_distribute_troops(query, distributions)
 
 
 def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[MoveAttack, MoveAttackPass]:
