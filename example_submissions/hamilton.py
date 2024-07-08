@@ -358,13 +358,9 @@ def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[
     # war_focus
     print("war focus: ", bot_state.war_focus)
     path_solutions = []
-    # path_starting_points = [[t] for t in war_focus & my_territories if game.state.territories[t].troops > 3]
-    # adjacent_to_war_focus = set(game.state.get_all_adjacent_territories(bot_state.war_focus))
-    # within_war_focus = bot_state.war_focus
-    # my_borders = game.state.get_all_border_territories(my_territories)
-
-    # path_starting_points = [[p] for p in (adjacent_to_war_focus |  within_war_focus) & my_borders]
     path_starting_points = get_starting_territories(game, bot_state)
+
+    preferred_ending_points = []
 
     print("my_territories: ", my_territories, flush=True)
     print("starting points: ", path_starting_points, flush=True)
