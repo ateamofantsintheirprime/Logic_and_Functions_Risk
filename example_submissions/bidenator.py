@@ -339,10 +339,19 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
     # If we've lost SA or NA since our last turn,
     # we probably have some holes to patch up.
     if patch_territories != {}:
-        # We should probably check if holes need to be patched
-        # when considering whether to turn in cards, as it's not
-        # worth saving them for a rainy day if we're getting owned.
-        patch_holes(game, bot_state, patch_territories & my_territories, patch_territories - my_territories)
+        enemy_territories = patch_territories - my_territories
+        # We only need to consider friendly territories that
+        # are adjacent to the territories we want to patch.
+        friendly_territories = set(game.state.get_all_adjacent_territories(enemy_territories)) & border_territories
+        if enemy_territories != {} and friendly_territories != {}:
+            # We should probably check if holes need to be patched
+            # when considering whether to turn in cards, as it's not
+            # worth saving them for a rainy day if we're getting owned.
+            paths = patch_holes(game, bot_state, friendly_territories, enemy_territories)
+
+            # Now that we've found attack paths, we should check how
+            # viable they are and distribute any troops as necessary.
+            #
 
 
     # If we still have troops left over, we should
@@ -827,11 +836,11 @@ def find_shortest_path_from_vertex_to_set(game: Game, source: int, target_set: s
     return path[::-1]
 
 
-def find_connected_components(vertices:set[int], edges:dict[int, set]) -> set[frozenset[int]]:
+def find_connected_components(graph:dict[int, set]) -> list[set[int]]:
     """Find the connected components of the given graph.
     We use the DSU (disjoint set union) algorithm."""
 
-    parents = dict((vertex, vertex) for vertex in vertices);
+    parents = dict([(vertex, vertex) for vertex in graph]);
     connected_components = dict()
 
     # Iterate upwards through the graph until
@@ -845,32 +854,41 @@ def find_connected_components(vertices:set[int], edges:dict[int, set]) -> set[fr
     # For each edge in the graph, set the parent of the starting
     # vertex to be the parent of the ending vertex. This essentially
     # merges connected vertices into one connected component.
-    for start in edges:
-        for end in edges[start]:
-            # Don't double count edges.
+    for start in graph:
+        for end in graph[start]:
+            # Don't double count edges!
             if start < end:
                 parents[find_root(start)] = find_root(end)
 
     # Add each vertex to its connected component.
-    for vertex in vertices:
+    for vertex in graph:
         current_root = find_root(parents[vertex])
         if current_root in connected_components:
             connected_components[current_root].add(vertex)
         else:
             connected_components[current_root] = {current_root, vertex}
 
-    return {frozenset(connected_components[component]) for component in connected_components}
+    return [set(connected_components[component]) for component in connected_components]
 
 
-def patch_holes(game:Game, bot_state:BotState, owned_vertices:set[int], enemy_vertices:set[int]):
+def patch_holes(game:Game, bot_state:BotState, friendly_vertices:set[int], enemy_vertices:set[int]) -> list[list[int]]:
     """Identify any holes in a particular continent
     and find good paths of attack to patch them."""
 
-    # Get the subset of graph edges between enemy vertices.
-    enemy_edges = dict((start, set(game.state.map.get_adjacent_to(start)) & set(enemy_vertices)) for start in enemy_vertices)
+    full_vertices = friendly_vertices | enemy_vertices
+    # This is the full subgraph edges between only
+    # the friendly and enemy vertices of interest.
+    full_graph = dict([(start, set(game.state.map.get_adjacent_to(start)) & full_vertices) for start in full_vertices])
+    # Most of the time though, it will be quicker to search
+    # through the subgraph of edges between enemy vertices.
+    enemy_graph = dict([(start, full_graph[start] & enemy_vertices) for start in enemy_vertices])
+    # Keep track of any "endpoints", that is,
+    # territories with only one connection.
+    enemy_endpoints = set(vertex for vertex in enemy_vertices if len(enemy_graph[vertex]) == 1)
+
     # If this continent has been attacked from multiple angles,
     # we may have several connected components to reclaim.
-    connected_components = find_connected_components(enemy_vertices, enemy_edges)
+    connected_components = find_connected_components(enemy_graph)
 
     # We've found the connected components, now we need a battle plan!
     # The following procedure should be performed for each connected component.
@@ -887,6 +905,88 @@ def patch_holes(game:Game, bot_state:BotState, owned_vertices:set[int], enemy_ve
     # that visit every node in the connected component. While there are no
     # doubt smarter ways to do this, we expect enemies to usually take linear
     # paths through our territory, ending either randomly or before an army.
+
+    # Find the friendly territories with the largest armies.
+    maximal_vertices = set()
+    max_army_size = 1
+    for vertex in friendly_vertices:
+        cur_army_size = game.state.territories[vertex].troops
+        if cur_army_size < max_army_size:
+            continue
+        elif cur_army_size == max_army_size:
+            maximal_vertices.add(vertex)
+        else:
+            maximal_vertices = set(vertex)
+            max_army_size = cur_army_size
+
+    paths = []
+    # Find an attack path through each connected component.
+    for component in connected_components:
+        cur_path = []
+
+        # Step 1: Figure out a starting point.
+        adjacent_vertices = maximal_vertices & full_graph[enemy_endpoints & component]
+        # We should also find which of these are next to endpoints.
+        if adjacent_vertices != {}:
+            maximal_vertices = adjacent_vertices
+        # If we still have multiple candidates, just choose
+        # a "random" one. It might be better to prioritize
+        # starting locations we've already chosen, but this
+        # probably wouldn't be a significant improvement.
+        cur_path.append(maximal_vertices.pop())
+
+        # We need to use the full graph to find the first enemy
+        # vertex, but after that we'll only need the enemy graph.
+        # We should also choose any endpoints here if we can.
+        adjacent_vertices = full_graph[cur_path[-1]] & component
+        # Add any vertex with a minimal number of edges.
+        splitting_points = set([cur_path[-1], min(adjacent_vertices, key=lambda v: len(enemy_graph[v]))])
+
+        # Step 3: Repeat the process for each splitting point.
+        while len(splitting_points) > 0:
+            cur_path = splitting_points.pop()
+            # This is pretty gross lol
+            cur_path_set = set(cur_path)
+
+            # Step 2: Find a path through the connected component.
+            while (adjacent_vertices := enemy_graph[cur_path[-1]] - cur_path_set) != {}:
+                # Find an adjacent vertex with a minimal but
+                # positive number of edges to unvisited nodes.
+                min_num_edges = len(game.state.territories)
+                next_vertex = None
+                for vertex in adjacent_vertices:
+                    cur_num_edges = len(enemy_graph[vertex] - cur_path_set)
+                    if 0 < cur_num_edges < min_num_edges:
+                        next_vertex = vertex
+                        min_edges = cur_num_edges
+
+                    # If this vertex is a splitting point,
+                    # keep a record of it for later.
+                    elif cur_num_edges == 1:
+                        splitting_points.add([cur_path[-1], vertex])
+
+                # If we found an unvisited node that isn't an
+                # endpoint, add it to the path and continue on.
+                if next_vertex is not None:
+                    cur_path.append(next_vertex)
+
+                # Otherwise, every node is an endpoint,
+                # so we should add a random one to our
+                # path and the rest as splitting points.
+                else:
+                    cur_path.append(adjacent_vertices.pop())
+                    splitting_points.add([[cur_path[-1], vertex] for vertex in adjacent_vertices])
+
+                cur_path_set.add(cur_path[-1])
+
+            # Add the path to our list.
+            paths.append(cur_path)
+
+        # Now that we're done with this connected component,
+        # we can remove all of its endpoints from our set.
+        enemy_endpoints.discard(cur_endpoints)
+
+    return paths
 
 
 def kill_deathstack(game:Game):
