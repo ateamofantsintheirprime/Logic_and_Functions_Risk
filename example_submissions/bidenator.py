@@ -207,6 +207,7 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
                 print("placing troops on 31")
                 return game.move_place_initial_troop(query, 31)
         # We will place troops along the territories on our border.
+        print("my sa territories:", my_sa_territories)
         border_sa_territories = border_territories & set([31,30,28,29])
         in_danger_territory = max(border_sa_territories, key=lambda x: threat(game,x))
         print(f"not in control of SA,, most in danger territory is {in_danger_territory}")
