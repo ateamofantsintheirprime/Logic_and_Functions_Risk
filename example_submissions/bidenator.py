@@ -840,7 +840,7 @@ def find_connected_components(graph:dict[int, set]) -> list[set[int]]:
     """Find the connected components of the given graph.
     We use the DSU (disjoint set union) algorithm."""
 
-    parents = dict([(vertex, vertex) for vertex in graph]);
+    parents = dict((vertex, vertex) for vertex in graph);
     connected_components = dict()
 
     # Iterate upwards through the graph until
@@ -878,10 +878,10 @@ def patch_holes(game:Game, bot_state:BotState, friendly_vertices:set[int], enemy
     full_vertices = friendly_vertices | enemy_vertices
     # This is the full subgraph edges between only
     # the friendly and enemy vertices of interest.
-    full_graph = dict([(start, set(game.state.map.get_adjacent_to(start)) & full_vertices) for start in full_vertices])
+    full_graph = dict((start, set(game.state.map.get_adjacent_to(start)) & full_vertices) for start in full_vertices)
     # Most of the time though, it will be quicker to search
     # through the subgraph of edges between enemy vertices.
-    enemy_graph = dict([(start, full_graph[start] & enemy_vertices) for start in enemy_vertices])
+    enemy_graph = dict((start, full_graph[start] & enemy_vertices) for start in enemy_vertices)
     # Keep track of any "endpoints", that is,
     # territories with only one connection.
     enemy_endpoints = set(vertex for vertex in enemy_vertices if len(enemy_graph[vertex]) == 1)
@@ -940,11 +940,11 @@ def patch_holes(game:Game, bot_state:BotState, friendly_vertices:set[int], enemy
         # We should also choose any endpoints here if we can.
         adjacent_vertices = full_graph[cur_path[-1]] & component
         # Add any vertex with a minimal number of edges.
-        splitting_points = set([cur_path[-1], min(adjacent_vertices, key=lambda v: len(enemy_graph[v]))])
+        splitting_points = {(cur_path[-1], min(adjacent_vertices, key=lambda v: len(enemy_graph[v])))}
 
         # Step 3: Repeat the process for each splitting point.
         while len(splitting_points) > 0:
-            cur_path = splitting_points.pop()
+            cur_path = list(splitting_points.pop())
             # This is pretty gross lol
             cur_path_set = set(cur_path)
 
@@ -957,27 +957,27 @@ def patch_holes(game:Game, bot_state:BotState, friendly_vertices:set[int], enemy
                 for vertex in adjacent_vertices:
                     cur_num_edges = len(enemy_graph[vertex] - cur_path_set)
                     if 0 < cur_num_edges < min_num_edges:
+                        # Add the previous vertex as a potential splitting point.
+                        splitting_points.add((cur_path[-1], next_vertex))
+                        # Update the next vertex.
                         next_vertex = vertex
                         min_edges = cur_num_edges
 
-                    # If this vertex is a splitting point,
-                    # keep a record of it for later.
-                    elif cur_num_edges == 1:
-                        splitting_points.add([cur_path[-1], vertex])
+                    # If we have no chance of visiting a vertex, we
+                    # should add it as a potential splitting point.
+                    else:
+                        splitting_points.add((cur_path[-1], vertex))
 
-                # If we found an unvisited node that isn't an
-                # endpoint, add it to the path and continue on.
-                if next_vertex is not None:
-                    cur_path.append(next_vertex)
+                # If every node was an endpoint, just add a random one.
+                if next_vertex is None:
+                    next_vertex = adjacent_vertices.pop()
 
-                # Otherwise, every node is an endpoint,
-                # so we should add a random one to our
-                # path and the rest as splitting points.
-                else:
-                    cur_path.append(adjacent_vertices.pop())
-                    splitting_points.add([[cur_path[-1], vertex] for vertex in adjacent_vertices])
-
-                cur_path_set.add(cur_path[-1])
+                # Add the new node to the path and continue on.
+                cur_path.append(next_vertex)
+                cur_path_set.add(next_vertex)
+                # If this node was previously added as a splitting
+                # point, we should remove it from the set.
+                splitting_points = {point for point in splitting_points if not point[1] == next_vertex}
 
             # Add the path to our list.
             paths.append(cur_path)
