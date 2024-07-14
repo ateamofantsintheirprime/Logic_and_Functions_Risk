@@ -26,6 +26,26 @@ from risk_shared.records.record_attack import RecordAttack
 from risk_shared.records.types.move_type import MoveType
 
 
+class ContinentTracker:
+	def __init__(self, territories:set[int], game:Game = None, borders:set[int] = set()):
+		self.territories = territories
+		if game is not None:
+			self.update(game, borders)
+		else:
+			self.borders = borders
+			self.power = 0
+
+	def update(self, game:Game, borders:set[int]):
+		# This will include any friendly territories inside the continent!
+		print(self.territories)
+		self.borders = set(game.state.get_all_adjacent_territories(self.territories)) & borders
+		self.power = sum(game.state.territories[x].troops for x in self.territories if not game.state.territories[x].occupier == game.state.me.player_id)
+
+	def __lt__(self, other):
+		if len(self.borders) > 0 and len(other.borders) > 0:
+			return self.power < other.power
+		return len(self.borders) > 0
+
 # We will store our enemy in the bot state.
 class BotState():
 	def __init__(self, game:Game):
@@ -44,20 +64,59 @@ class BotState():
 		ICELAND = set([10])
 
 		self.region_capture_priority = [ # In order of priority
-			SA,
-			SA | MEXICO | WEST_AFRICA,
+			ContinentTracker(SA),
+			ContinentTracker(SA | MEXICO | WEST_AFRICA),
 			# AF,
-			NA,
-			NA | KAMCHATKA | ICELAND, # this attack neccesarily ends with our armies on choke points which is nice
-			EU | AF | MIDDLE_EAST,
-			AS,
-			OC
+			ContinentTracker(NA),
+			ContinentTracker(NA | KAMCHATKA | ICELAND), # this attack neccesarily ends with our armies on choke points which is nice
+			ContinentTracker(EU | AF | MIDDLE_EAST),
+			ContinentTracker(AS),
+			ContinentTracker(OC)
 		]
+
+		self.friendly_territories = set()
+		self.border_territories = set()
 
 		self.war_focus = set()
 		self.defense_focus = set()
 		self.chosen_attack_path = []
 		self.max_search_depth = 10000
+
+	def controlling_region(self, region:set[int]):
+		return region.issubset(self.friendly_territories)
+
+	def eliminate_check(self, game:Game):
+		adjacent_to_me = adjacent_to_region(game, self.friendly_territories)
+		for player in game.state.players.keys():
+			if set(game.state.get_territories_owned_by(player)).issubset(adjacent_to_me):
+				# if we are adjacent to all of this players territories we can probably just kill them.
+				# drop everything and attack them
+				self.war_focus = set(game.state.get_territories_owned_by(player))
+				self.defense_focus = set([])
+				break
+
+	def get_focuses(self, game:Game):
+		self.friendly_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
+		self.border_territories = set(game.state.get_all_border_territories(self.friendly_territories))
+		self.war_focus = set()
+		self.defense_focus = set([])
+
+		# If there's only one other player alive, we need
+		# to get our priorities straight. Reconstruct the
+		# list of continents and sort it in ascending order
+		# of total enemy troops occupying it.
+		if sum(game.state.players[i].alive for i in game.state.players) <= 2:
+			continents = game.state.map.get_continents()
+			self.region_capture_priority = sorted([ContinentTracker(set(continents[i]), game, self.border_territories) for i in continents])
+
+		# Find the most appealing region that we're not controlling.
+		for region in self.region_capture_priority:
+			self.defense_focus.update(region.territories)
+			if not self.controlling_region(region.territories):
+				self.war_focus = region.territories
+				break
+
+		self.eliminate_check(game)
 
 def main():
 	
@@ -71,7 +130,7 @@ def main():
 
 		# Get the engine's query (this will block until you receive a query).
 		query = game.get_next_query()
-		get_focuses(bot_state, game)
+		bot_state.get_focuses(game)
 		def choose_move(query: QueryType) -> MoveType:
 			match query:
 				case QueryClaimTerritory() as q:
@@ -105,13 +164,12 @@ def main():
 				
 def handle_claim_territory(game: Game, bot_state: BotState, query: QueryClaimTerritory) -> MoveClaimTerritory:
 	unclaimed_territories = set(game.state.get_territories_owned_by(None))
-	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
 	# claim territories semi-randomly prioritising regions in order
 	# print( flush=True)
-	# print("my_territories:", my_territories test
+	# print("my_territories:", bot_state.friendly_territories test
 	# print("unclaimed_territories:", unclaimed_territories, flush=True)
 	for region in bot_state.region_capture_priority:
-		unclaimed_in_region = region & unclaimed_territories
+		unclaimed_in_region = region.territories & unclaimed_territories
 		# print("region:", region, flush=True)
 		# print("unclaimed in region:", unclaimed_in_region, flush=True)
 		if len(unclaimed_in_region) > 0:
@@ -119,11 +177,10 @@ def handle_claim_territory(game: Game, bot_state: BotState, query: QueryClaimTer
 	raise Exception
 
 def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlaceInitialTroop) -> MovePlaceInitialTroop:
-	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
 	bot_state.max_search_depth = 2000
 
 	def covers_war_focus(mega_path:set):
-		return bot_state.war_focus.issubset(mega_path | my_territories)
+		return bot_state.war_focus.issubset(mega_path | bot_state.friendly_territories)
 
 	def hamiltonian_warpath(current_paths:list[list[int]], solutions:list):
 		# In future this should account for gaining cards thanks to eliminating players
@@ -137,13 +194,13 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
 			all_nodes_in_paths.update(sub_path)
 		all_possible_neighbours = set()
 		for sub_path in current_paths:
-			all_possible_neighbours.update(set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - my_territories))
+			all_possible_neighbours.update(set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - bot_state.friendly_territories))
 		if len(all_possible_neighbours) == 0:
 			if covers_war_focus(all_nodes_in_paths):
 				solutions.append([p.copy() for p in current_paths])
 			return
 		for sub_path in current_paths:
-			for neighbour in set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - my_territories):
+			for neighbour in set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - bot_state.friendly_territories):
 				sub_path.append(neighbour)
 				hamiltonian_warpath(current_paths, solutions)
 				sub_path.pop(-1)
@@ -163,22 +220,17 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
 	
 	ideal_ending_points = set(game.state.get_all_border_territories(
 		list(bot_state.war_focus)
-	)) - my_territories
+	)) - bot_state.friendly_territories
 
-	
-	border_territories = set(game.state.get_all_border_territories(
-		game.state.get_territories_owned_by(game.state.me.player_id)
-	))
-
-	within_war_focus = bot_state.war_focus & border_territories
-	adjacent_to_war_focus = adjacent_to_region(game, bot_state.war_focus) & border_territories
+	within_war_focus = bot_state.war_focus & bot_state.border_territories
+	adjacent_to_war_focus = adjacent_to_region(game, bot_state.war_focus) & bot_state.border_territories
 
 	# All combinations of my territories that are adjacent to enemy territories
 
 	sol = None
 	num_starting_points = 1
 	while sol == None:
-		starting_point_combinations = combinations(list(bot_state.war_focus & border_territories), num_starting_points)
+		starting_point_combinations = combinations(list(bot_state.war_focus & bot_state.border_territories), num_starting_points)
 		for starting_points in starting_point_combinations:
 			path_solutions = []
 			hamiltonian_warpath([[p] for p in starting_points], path_solutions)
@@ -231,16 +283,14 @@ def handle_redeem_cards(game: Game, bot_state: BotState, query: QueryRedeemCards
 def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistributeTroops) -> MoveDistributeTroops:
 	distributions = defaultdict(lambda: 0)
 	total_troops = game.state.me.troops_remaining
-	get_focuses(bot_state, game)
+	bot_state.get_focuses(game)
 
 	if len(game.state.me.must_place_territory_bonus) != 0:
 		assert total_troops >= 2
 		distributions[game.state.me.must_place_territory_bonus[0]] += 2
 		total_troops -= 2
 
-	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-	border_territories = set(game.state.get_all_border_territories(my_territories))
-	defensive_borders = border_territories & bot_state.defense_focus
+	defensive_borders = bot_state.border_territories & bot_state.defense_focus
 
 	print("reinforcing defensive territories", flush=True)
 	defensive_priorities = sorted(list(defensive_borders), key= lambda x: threat(game,x), reverse=True)
@@ -259,7 +309,7 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
 
 
 	def covers_war_focus(mega_path:set):
-		return bot_state.war_focus.issubset(mega_path | my_territories)
+		return bot_state.war_focus.issubset(mega_path | bot_state.friendly_territories)
 
 	def hamiltonian_warpath(current_paths:list[list[int]], solutions:list):
 		# In future this should account for gaining cards thanks to eliminating players
@@ -273,13 +323,13 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
 			all_nodes_in_paths.update(sub_path)
 		all_possible_neighbours = set()
 		for sub_path in current_paths:
-			all_possible_neighbours.update(set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - my_territories))
+			all_possible_neighbours.update(set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - bot_state.friendly_territories))
 		if len(all_possible_neighbours) == 0:
 			if covers_war_focus(all_nodes_in_paths):
 				solutions.append([p.copy() for p in current_paths])
 			return
 		for sub_path in current_paths:
-			for neighbour in set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - my_territories):
+			for neighbour in set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - bot_state.friendly_territories):
 				sub_path.append(neighbour)
 				hamiltonian_warpath(current_paths, solutions)
 				sub_path.pop(-1)
@@ -299,18 +349,15 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
 
 	ideal_ending_points = set(game.state.get_all_border_territories(
 		bot_state.war_focus
-	)) - my_territories
+	)) - bot_state.friendly_territories
 
 	
-	border_territories = set(game.state.get_all_border_territories(
-		game.state.get_territories_owned_by(game.state.me.player_id)
-	))
 	# All combinations of my territories that are adjacent to enemy territories
 
 	print("looking for front line to reinforce", flush=True)
 
-	if len(bot_state.war_focus & border_territories) == 1:
-		target =(bot_state.war_focus & border_territories).pop()
+	if len(bot_state.war_focus & bot_state.border_territories) == 1:
+		target =(bot_state.war_focus & bot_state.border_territories).pop()
 		distributions[target] += total_troops
 		print(f"distributing to only front line: {target}")
 		return game.move_distribute_troops(query, distributions)
@@ -319,10 +366,10 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
 
 	sol = []
 	num_starting_points = 1
-	print("potential starting points: ",bot_state.war_focus & border_territories )
+	print("potential starting points: ",bot_state.war_focus & bot_state.border_territories )
 	while len(sol) == 0:
 		print(f"calculating combinations of len {num_starting_points}")
-		starting_point_combinations = combinations(list(bot_state.war_focus & border_territories), num_starting_points)
+		starting_point_combinations = combinations(list(bot_state.war_focus & bot_state.border_territories), num_starting_points)
 		most_optimal_solution = None
 		for starting_points in starting_point_combinations:
 			print(f"investigating starting points: {starting_points}", flush=True)
@@ -347,7 +394,7 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
 		# if there is no solution found with this number of starting points, we increase the number of possible starting points and check again. hopefully this isnt too slow.
 		if most_optimal_solution != None:
 			break
-		if num_starting_points >= len(bot_state.war_focus & border_territories):
+		if num_starting_points >= len(bot_state.war_focus & bot_state.border_territories):
 			break
 		num_starting_points += 1
 
@@ -364,11 +411,11 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
 			total_troops -= min(needed, total_troops)
 
 	if total_troops > 0:
-		troops_per_territory = total_troops // len(border_territories)
-		leftover_troops = total_troops % len(border_territories)
-		for territory in border_territories:
+		troops_per_territory = total_troops // len(bot_state.border_territories)
+		leftover_troops = total_troops % len(bot_state.border_territories)
+		for territory in bot_state.border_territories:
 			distributions[territory] += troops_per_territory
-		distributions[border_territories.pop()] += leftover_troops
+		distributions[next(iter(bot_state.border_territories))] += leftover_troops
 
 	print("distributions")
 	print(distributions.items(), flush=True)
@@ -399,11 +446,7 @@ def handle_distribute_troops_old(game: Game, bot_state: BotState, query: QueryDi
 	# Our first priority is to stack along the border territories of continents we are trying to defend.
 	# This will be a choke point if we are in control of the territory, and will be all over the territory
 	# if we are not in control (Not ideal)
-	border_territories = set(game.state.get_all_border_territories(
-		game.state.get_territories_owned_by(game.state.me.player_id)
-	))
-
-	defensive_borders = border_territories & bot_state.defense_focus
+	defensive_borders = bot_state.border_territories & bot_state.defense_focus
 
 
 	print("reinforcing defensive territories", flush=True)
@@ -422,13 +465,12 @@ def handle_distribute_troops_old(game: Game, bot_state: BotState, query: QueryDi
 	if total_troops > 0:
 		# If we still have remaining troops, we add forces to our front line in the continent we are currently attacking
 		print("reinforcing front line", flush=True)
-		my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
 
 		war_focus_armies = set()
 		# our 'war focus armies' represent our armies within the continent that we are invading
 		# the continent / group of territories we are invading is our "war focus" 
 
-		for territory in bot_state.war_focus - my_territories: # Reinforce my armies adjacent to enemy territories in war focus
+		for territory in bot_state.war_focus - bot_state.friendly_territories: # Reinforce my armies adjacent to enemy territories in war focus
 			for neighbour in game.state.map.get_adjacent_to(territory):
 				if game.state.territories[neighbour].occupier == game.state.me.player_id:
 					war_focus_armies.add(neighbour)
@@ -444,13 +486,13 @@ def handle_distribute_troops_old(game: Game, bot_state: BotState, query: QueryDi
 		distributions[current_deathstack] += total_troops
 		total_troops = 0
 	if total_troops > 0:
-		troops_per_territory = total_troops // len(border_territories)
-		leftover_troops = total_troops % len(border_territories)
-		for territory in border_territories:
+		troops_per_territory = total_troops // len(bot_state.border_territories)
+		leftover_troops = total_troops % len(bot_state.border_territories)
+		for territory in bot_state.border_territories:
 			distributions[territory] += troops_per_territory
 	
 		# The leftover troops will be put some territory (we don't care)
-		distributions[border_territories.pop()] += leftover_troops
+		distributions[next(iter(bot_state.border_territories))] += leftover_troops
 
 	print(distributions.items(), flush=True)
 
@@ -459,20 +501,17 @@ def handle_distribute_troops_old(game: Game, bot_state: BotState, query: QueryDi
 def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[MoveAttack, MoveAttackPass]:
 	# calculate_attack_path(game, bot_state)
 	print("turn: ", len(game.state.recording), flush=True)
-	get_focuses(bot_state, game)
+	bot_state.get_focuses(game)
 
 	if len(bot_state.chosen_attack_path) > 0:
 		if min(estimated_remaining_troops(game, p) for p in bot_state.chosen_attack_path) <= 2:
 			calculate_attack_path(game, bot_state)
 	else:
-		my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-		border_territories = set(game.state.get_all_border_territories(my_territories))
-
 		within_war_focus = bot_state.war_focus
 		adjacent_to_war_focus = adjacent_to_region(game, bot_state.war_focus)
-		enemy_power=sum([game.state.territories[t].troops for t in within_war_focus - my_territories])
-		my_power = sum([game.state.territories[t].troops for t in (within_war_focus|border_territories)&my_territories])
-		if my_power > 0.857*enemy_power + len(within_war_focus - my_territories)+ 1:
+		enemy_power=sum([game.state.territories[t].troops for t in within_war_focus - bot_state.friendly_territories])
+		my_power = sum([game.state.territories[t].troops for t in (within_war_focus|bot_state.border_territories)&bot_state.friendly_territories])
+		if my_power > 0.857*enemy_power + len(within_war_focus - bot_state.friendly_territories)+ 1:
 			calculate_attack_path(game,bot_state)
 
 
@@ -530,9 +569,7 @@ def handle_defend(game: Game, bot_state: BotState, query: QueryDefend) -> MoveDe
 	return game.move_defend(query, defending_troops)
 
 def handle_fortify(game: Game, bot_state: BotState, query: QueryFortify) -> Union[MoveFortify, MoveFortifyPass]:
-	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-	border_territories = set(game.state.get_all_border_territories(my_territories))
-	internal_territories = my_territories - border_territories
+	internal_territories = bot_state.friendly_territories - bot_state.border_territories
 	if len(internal_territories) == 0:
 		return game.move_fortify_pass(query)
 
@@ -546,7 +583,7 @@ def handle_fortify(game: Game, bot_state: BotState, query: QueryFortify) -> Unio
 	visited = [most_troops_territory]
 	while True:
 		path = path_to_border.pop(0)
-		if path[-1] in border_territories:
+		if path[-1] in bot_state.border_territories:
 			break
 			
 		for neighbour in game.state.map.get_adjacent_to(path[-1]):
@@ -564,7 +601,6 @@ def handle_fortify_old(game: Game, bot_state: BotState, query: QueryFortify) -> 
 	any two of your territories (they must be adjacent)."""
 
 	# We will always fortify towards the most powerful player (player with most troops on the map) to defend against them.
-	my_territories = game.state.get_territories_owned_by(game.state.me.player_id)
 	total_troops_per_player = {}
 	for player in game.state.players.values():
 		total_troops_per_player[player.player_id] = sum([game.state.territories[x].troops for x in game.state.get_territories_owned_by(player.player_id)])
@@ -587,8 +623,7 @@ def handle_fortify_old(game: Game, bot_state: BotState, query: QueryFortify) -> 
 	
 	# Otherwise we will find the shortest path between our territory with the most troops
 	# and any of the most powerful player's territories and fortify along that path.
-	candidate_territories = game.state.get_all_border_territories(my_territories)
-	most_troops_territory = max(candidate_territories, key=lambda x: game.state.territories[x].troops)
+	most_troops_territory = max(bot_state.border_territories, key=lambda x: game.state.territories[x].troops)
 
 	# To find the shortest path, we will use a custom function.
 	shortest_path = find_shortest_path_from_vertex_to_set(game, most_troops_territory, set(game.state.get_territories_owned_by(most_powerful_player)))
@@ -617,10 +652,6 @@ def handle_fortify_old(game: Game, bot_state: BotState, query: QueryFortify) -> 
 #     my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
 #     eurafrica = set(game.state.map.get_continents()[1]) | set(game.state.map.get_continents()[4]) | set([22])
 #     return set(eurafrica).issubset(my_territories)
-
-def controlling_region(game:Game, region:set[int]):
-	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-	return region.issubset(my_territories)
 
 def get_starting_territories(game:Game, bot_state:BotState):
 	result = set()
@@ -741,12 +772,13 @@ def adjacent_to_region(game:Game, region:set[int]):
 def calculate_attack_path(game:Game, bot_state:BotState):
 	# bot_state.war_focus = set()
 	print("CALCULATING ATTACK ", flush=True)
-	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
 	bot_state.max_search_depth = 10000
-	get_focuses(bot_state, game)
+	bot_state.get_focuses(game)
+	print(game.state.get_all_border_territories(bot_state.war_focus))
+	print(bot_state.friendly_territories)
 
 	def covers_war_focus(mega_path:set):
-		return bot_state.war_focus.issubset(mega_path | my_territories)
+		return bot_state.war_focus.issubset(mega_path | bot_state.friendly_territories)
 
 	def hamiltonian_warpath(current_paths:list[list[int]], solutions:list):
 		# In future this should account for gaining cards thanks to eliminating players
@@ -763,7 +795,7 @@ def calculate_attack_path(game:Game, bot_state:BotState):
 			all_nodes_in_paths.update(sub_path)
 		all_possible_neighbours = set()
 		for sub_path in current_paths:
-			all_possible_neighbours.update(set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - my_territories))
+			all_possible_neighbours.update(set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - bot_state.friendly_territories))
 		if len(all_possible_neighbours) == 0:
 			if covers_war_focus(all_nodes_in_paths):
 				solutions.append([p.copy() for p in current_paths if len(p) > 1])
@@ -772,7 +804,7 @@ def calculate_attack_path(game:Game, bot_state:BotState):
 		for sub_path in current_paths:
 			# print("neighbours to end of sub_path:", set(game.state.map.get_adjacent_to(sub_path[-1])))
 			# print("attackable territories:", (bot_state.war_focus - set(all_nodes_in_paths) - my_territories))
-			for neighbour in set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - my_territories):
+			for neighbour in set(game.state.map.get_adjacent_to(sub_path[-1])) & (bot_state.war_focus - set(all_nodes_in_paths) - bot_state.friendly_territories):
 				sub_path.append(neighbour)
 				hamiltonian_warpath(current_paths, solutions)
 				sub_path.pop(-1)
@@ -785,13 +817,16 @@ def calculate_attack_path(game:Game, bot_state:BotState):
 
 	ideal_ending_points = set(game.state.get_all_border_territories(
 		bot_state.war_focus
-	)) - my_territories
+	)) - bot_state.friendly_territories
+	print(game.state.get_all_border_territories(bot_state.war_focus))
+	print(bot_state.friendly_territories)
+	print(ideal_ending_points)
 
-	print("my_territories: ", my_territories, flush=True)
+	print("my_territories: ", bot_state.friendly_territories, flush=True)
 	print("starting points: ", path_starting_points, flush=True)
 	starting_point_power = sum([game.state.territories[t[0]].troops for t in path_starting_points])
 	print("starting point power:", starting_point_power, flush=True)
-	enemy_territories_in_war_focus = bot_state.war_focus - my_territories
+	enemy_territories_in_war_focus = bot_state.war_focus - bot_state.friendly_territories
 	print("enemy territories in war focus:", flush=True)
 	for terr in enemy_territories_in_war_focus:
 		print(terr, ", power: ", game.state.territories[terr].troops)
@@ -812,6 +847,9 @@ def calculate_attack_path(game:Game, bot_state:BotState):
 
 		most_ends_at_preferred_points = max([len([s_ for s_ in x if s_[-1] in ideal_ending_points]) for x in path_solutions])
 		end_point_filtered = [p for p in path_solutions if len([s_ for s_ in p if s_[-1] in ideal_ending_points]) == most_ends_at_preferred_points]
+		print(ideal_ending_points)
+		print(most_ends_at_preferred_points)
+		print(end_point_filtered)
 
 		most_optimal_solution = max(end_point_filtered, key=lambda x:min(estimated_remaining_troops(game, s) for s in x))
 		if min(estimated_remaining_troops(game, s) for s in most_optimal_solution) > 1:
@@ -822,29 +860,6 @@ def calculate_attack_path(game:Game, bot_state:BotState):
 			print("estimated remaining troops: ", estimated_remaining_troops(game, sub_path), flush=True)
 
 	bot_state.chosen_attack_path = sol
-
-def get_focuses(bot_state:BotState, game:Game):
-	bot_state.war_focus = bot_state.region_capture_priority[0]
-	bot_state.defense_focus = set([])
-	for (region, next_region) in zip(bot_state.region_capture_priority[:-1], bot_state.region_capture_priority[1:]):
-		bot_state.defense_focus.update(region)
-		if controlling_region(game, region):
-			bot_state.war_focus = next_region
-		else:
-			bot_state.war_focus = region
-			break
-	eliminate_check(game,bot_state)
-	
-def eliminate_check(game:Game, bot_state:BotState):
-	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-	adjacent_to_me = adjacent_to_region(game, my_territories)
-	for player in game.state.players.keys():
-		if set(game.state.get_territories_owned_by(player)).issubset(adjacent_to_me):
-			# if we are adjacent to all of this players territories we can probably just kill them.
-			# drop everything and attack them
-			bot_state.war_focus = set(game.state.get_territories_owned_by(player))
-			bot_state.defense_focus = set([])
-			break
 
 def estimated_remaining_troops(game: Game, path:list[int]):
 	# print("path in estimation:" , path, flush=True)
