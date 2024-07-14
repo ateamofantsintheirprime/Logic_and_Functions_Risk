@@ -1,4050 +1,2057 @@
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-path solutions: [[[8, 1, 0, 5, 4, 6, 7]], [[8, 1, 0, 5, 4, 7, 6]], [[8, 1, 0, 5, 6, 4, 7]], [[8, 1, 0, 5, 6, 7, 4]], [[8, 1, 6, 7, 4, 5, 0]], [[8, 6, 1, 0, 5, 4, 7]], [[8, 6, 7, 4, 5, 0, 1]], [[8, 6, 7, 4, 5, 1, 0]]]
-most ideal solution:  [[8, 1, 0, 5, 6, 7, 4]]
-found sol:  [[8, 1, 0, 5, 6, 7, 4]]
-starting to distribute troops
-adding matching territory bonus
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 1
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 2
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 3
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 4
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 5
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 6
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 7
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 8
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 9
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 10
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 11
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 12
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 13
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 14
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 15
+neighbour: 36
+neighbour_power: 0
+path solutions: [[[29, 36]]]
+most ideal solution:  [[29, 36]]
+found sol:  [[29, 36]]
+victim: 29
+victim power: 16
+neighbour: 36
+neighbour_power: 0
 reinforcing defensive territories
-threat to 3: 1.0
-reinforcing defensive territory: 3
-threat to 29: 1.0
-reinforcing defensive territory: 29
-threat to 8: -15.0
-reinforcing front line
-potential deathstacks: {8, 3}
-dict_items([(3, 1), (29, 1), (8, 3)])
+victim: 29
+victim power: 17
+neighbour: 36
+neighbour_power: 0
+victim: 29
+victim power: 17
+neighbour: 36
+neighbour_power: 0
+threat to 29: -15.0
+looking for front line to reinforce
+distributing to only front line: 29
 CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+war focus:  {2, 36, 28, 29, 30, 31}
 my_territories:  {2, 3, 8, 41, 27, 28, 29, 30, 31}
-starting points:  [[8]]
+starting points:  [[29]]
 starting point power: 17
 enemy territories in war focus:
-0 , power:  1
-1 , power:  4
-4 , power:  4
-5 , power:  1
-6 , power:  3
-7 , power:  3
-war_focus_enemy_power: 16
-heuristic based check failed
-found 0, potential solutions
+36 , power:  4
+war_focus_enemy_power: 4
+found 1, potential solutions
+starting power: 29 17
+path power: [36] 1 4
+estimated remaining troops:  12.572
 turn:  131
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 8, 41, 27, 28, 29, 30, 31}
-starting points:  [[8]]
-starting point power: 20
-enemy territories in war focus:
-0 , power:  1
-1 , power:  4
-4 , power:  4
-5 , power:  1
-6 , power:  3
-7 , power:  3
-war_focus_enemy_power: 16
-current paths:  [[8]]
-current paths:  [[8, 1]]
-current paths:  [[8, 1, 0]]
-current paths:  [[8, 1, 0, 5]]
-current paths:  [[8, 1, 0, 5, 4]]
-current paths:  [[8, 1, 0, 5, 4, 6]]
-current paths:  [[8, 1, 0, 5, 4, 7]]
-current paths:  [[8, 1, 0, 5, 6]]
-current paths:  [[8, 1, 0, 5, 6, 4]]
-current paths:  [[8, 1, 0, 5, 6, 7]]
-current paths:  [[8, 1, 5]]
-current paths:  [[8, 1, 5, 4]]
-current paths:  [[8, 1, 5, 4, 6]]
-current paths:  [[8, 1, 5, 4, 7]]
-current paths:  [[8, 1, 5, 6]]
-current paths:  [[8, 1, 5, 6, 4]]
-current paths:  [[8, 1, 5, 6, 7]]
-current paths:  [[8, 1, 6]]
-current paths:  [[8, 1, 6, 4]]
-current paths:  [[8, 1, 6, 4, 5]]
-current paths:  [[8, 1, 6, 5]]
-current paths:  [[8, 1, 6, 5, 4]]
-current paths:  [[8, 1, 6, 7]]
-current paths:  [[8, 1, 6, 7, 4]]
-current paths:  [[8, 1, 6, 7, 4, 5]]
-current paths:  [[8, 6]]
-current paths:  [[8, 6, 1]]
-current paths:  [[8, 6, 1, 0]]
-current paths:  [[8, 6, 1, 0, 5]]
-current paths:  [[8, 6, 1, 0, 5, 4]]
-current paths:  [[8, 6, 1, 5]]
-current paths:  [[8, 6, 1, 5, 4]]
-current paths:  [[8, 6, 4]]
-current paths:  [[8, 6, 4, 5]]
-current paths:  [[8, 6, 4, 5, 0]]
-current paths:  [[8, 6, 4, 5, 1]]
-current paths:  [[8, 6, 5]]
-current paths:  [[8, 6, 5, 0]]
-current paths:  [[8, 6, 5, 1]]
-current paths:  [[8, 6, 5, 4]]
-current paths:  [[8, 6, 7]]
-current paths:  [[8, 6, 7, 4]]
-current paths:  [[8, 6, 7, 4, 5]]
-current paths:  [[8, 6, 7, 4, 5, 0]]
-current paths:  [[8, 6, 7, 4, 5, 1]]
-found 8, potential solutions
-starting power: 8 20
-path power: [1, 0, 5, 6, 7, 4] 6 16
-estimated remaining troops:  12.288
-sol: [[8, 1, 0, 5, 6, 7, 4]]
-attacking from 8 to 1 with 3 troops
-19
+sol: [[29, 36]]
+attacking from 29 to 36 with 3 troops
+21
 turn:  134
-sol: [[8, 1, 0, 5, 6, 7, 4]]
-attacking from 8 to 1 with 3 troops
-19
+sol: [[29, 36]]
+attacking from 29 to 36 with 3 troops
+21
 turn:  137
-sol: [[8, 1, 0, 5, 6, 7, 4]]
-attacking from 8 to 1 with 3 troops
-18
-moving 18
-turn:  142
-sol: [[1, 0, 5, 6, 7, 4]]
-attacking from 1 to 0 with 3 troops
+sol: [[29, 36]]
+attacking from 29 to 36 with 3 troops
+19
+turn:  140
+sol: [[29, 36]]
+attacking from 29 to 36 with 3 troops
 17
-turn:  145
-sol: [[1, 0, 5, 6, 7, 4]]
-attacking from 1 to 0 with 3 troops
+turn:  143
+sol: [[29, 36]]
+attacking from 29 to 36 with 3 troops
 16
 moving 16
-turn:  150
-sol: [[0, 5, 6, 7, 4]]
-attacking from 0 to 5 with 3 troops
-15
-moving 15
-turn:  155
-sol: [[5, 6, 7, 4]]
-attacking from 5 to 6 with 3 troops
-14
-turn:  158
-sol: [[5, 6, 7, 4]]
-attacking from 5 to 6 with 3 troops
-14
-moving 14
-turn:  163
-sol: [[6, 7, 4]]
-attacking from 6 to 7 with 3 troops
-13
-turn:  166
-sol: [[6, 7, 4]]
-attacking from 6 to 7 with 3 troops
-12
-turn:  169
-sol: [[6, 7, 4]]
-attacking from 6 to 7 with 3 troops
-10
-moving 10
-turn:  174
-sol: [[7, 4]]
-attacking from 7 to 4 with 3 troops
-9
-turn:  177
-sol: [[7, 4]]
-attacking from 7 to 4 with 3 troops
-8
-turn:  180
-sol: [[7, 4]]
-attacking from 7 to 4 with 3 troops
-8
-moving 8
-turn:  185
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 41, 27, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 8
-enemy territories in war focus:
-10 , power:  4
-21 , power:  3
-war_focus_enemy_power: 7
-current paths:  [[4]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 5: 1.0
-reinforcing defensive territory: 5
-threat to 6: 1.0
-reinforcing defensive territory: 6
-threat to 8: 1.0
-reinforcing defensive territory: 8
-threat to 29: 0.0
-threat to 4: -6.0
-reinforcing front line
-potential deathstacks: {8, 5, 6}
-dict_items([(5, 1), (6, 1), (8, 3)])
+turn:  148
 CALCULATING ATTACK 
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 8
-enemy territories in war focus:
-0 , power:  1
-1 , power:  1
-war_focus_enemy_power: 2
-found 0, potential solutions
-turn:  266
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[8], [4]]
-starting point power: 12
-enemy territories in war focus:
-0 , power:  1
-1 , power:  1
-war_focus_enemy_power: 2
-current paths:  [[8], [4]]
-current paths:  [[8, 1], [4]]
-found 1, potential solutions
-starting power: 8 4
-path power: [1, 0] 2 2
-estimated remaining troops:  4.286
-sol: [[8, 1, 0]]
-attacking from 8 to 1 with 3 troops
-3
-moving 3
-turn:  271
-sol: [[1, 0]]
-attacking from 1 to 0 with 2 troops
-2
-moving 2
-turn:  276
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 8
-enemy territories in war focus:
-10 , power:  7
-21 , power:  1
-war_focus_enemy_power: 8
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 2: 1.0
-reinforcing defensive territory: 2
-threat to 30: 1.0
-reinforcing defensive territory: 30
-threat to 3: 0.0
-threat to 5: 0.0
-threat to 6: 0.0
-threat to 4: -6.0
-reinforcing front line
-potential deathstacks: {30}
-dict_items([(2, 1), (30, 2)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {2, 3, 4, 5, 6, 7, 30}
+my_territories:  {2, 3, 36, 8, 41, 27, 28, 29, 30, 31}
 starting points:  []
 starting point power: 0
 enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-31 , power:  3
-war_focus_enemy_power: 5
+0 , power:  1
+1 , power:  4
+4 , power:  4
+5 , power:  1
+6 , power:  3
+7 , power:  3
+war_focus_enemy_power: 16
 heuristic based check failed
 found 0, potential solutions
-turn:  369
+sol: []
+no valid paths
+reinforcing defensive territories
+victim: 36
+victim power: 16
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+victim: 30
+victim power: 1
+neighbour: 2
+neighbour_power: 0
+victim: 30
+victim power: 1
+neighbour: 2
+neighbour_power: 0
+threat to 30: 1.0
+reinforcing defensive territory: 30
+victim: 36
+victim power: 16
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+threat to 36: -14.0
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  {36, 30}
+calculating combinations of len 1
+investigating starting points: [36]
+investigating starting points: [30]
+path solutions: [[[30, 2]]]
+most optimal solution:  [[30, 2]]
+min remaining:  -0.857
+found sol:  [[30, 2]]
+point: 30, power: 1
+point: 2, power: 1
+needed: 1
+total_troops: 4
+adding 1 to 30
+distributions
+dict_items([(30, 3), (36, 2)])
 CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {2, 3, 4, 5, 6, 7, 30}
-starting points:  [[30]]
+war focus:  {2, 36, 28, 29, 30, 31}
+my_territories:  {36, 28, 29, 30, 31}
+starting points:  [[36]]
+starting point power: 16
+enemy territories in war focus:
+2 , power:  1
+war_focus_enemy_power: 1
+found 0, potential solutions
+turn:  258
+CALCULATING ATTACK 
+war focus:  {2, 36, 28, 29, 30, 31}
+my_territories:  {36, 28, 29, 30, 31}
+starting points:  [[36], [30]]
+starting point power: 22
+enemy territories in war focus:
+2 , power:  1
+war_focus_enemy_power: 1
+found 1, potential solutions
+starting power: 30 4
+path power: [2] 1 1
+estimated remaining troops:  2.143
+sol: [[30, 2]]
+attacking from 30 to 2 with 3 troops
+3
+moving 3
+turn:  263
+sol: []
+no valid paths
+reinforcing defensive territories
+victim: 2
+victim power: 3
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+victim: 36
+victim power: 18
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+victim: 2
+victim power: 3
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+threat to 2: -1.0
+victim: 36
+victim power: 18
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+threat to 36: -16.0
+looking for front line to reinforce
+distributing to only front line: 2
+CALCULATING ATTACK 
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
 starting point power: 3
 enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-31 , power:  3
-war_focus_enemy_power: 5
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 2: 0.0
-threat to 3: 0.0
-threat to 5: 0.0
-threat to 6: 0.0
-threat to 30: -1.0
-threat to 4: -6.0
-reinforcing front line
-potential deathstacks: {30}
-dict_items([(30, 3)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {2, 3, 4, 5, 6, 7, 30}
-starting points:  [[30]]
-starting point power: 3
-enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-31 , power:  2
-war_focus_enemy_power: 4
-heuristic based check failed
-found 0, potential solutions
-turn:  468
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {2, 3, 4, 5, 6, 7, 30}
-starting points:  [[30]]
-starting point power: 6
-enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-31 , power:  2
-war_focus_enemy_power: 4
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 2: 0.0
-threat to 3: 0.0
-threat to 5: 0.0
-threat to 6: 0.0
-threat to 30: -4.0
-threat to 4: -6.0
-reinforcing front line
-potential deathstacks: {30}
-dict_items([(30, 3)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {2, 3, 4, 5, 6, 7, 30}
-starting points:  [[30]]
-starting point power: 6
-enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-31 , power:  2
-war_focus_enemy_power: 4
-heuristic based check failed
-found 0, potential solutions
-turn:  588
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {2, 3, 4, 5, 6, 7, 30}
-starting points:  [[30]]
-starting point power: 9
-enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-31 , power:  2
-war_focus_enemy_power: 4
-current paths:  [[30]]
-current paths:  [[30, 29]]
-current paths:  [[30, 29, 28]]
-current paths:  [[30, 29, 31]]
-current paths:  [[30, 31]]
-current paths:  [[30, 31, 28]]
-current paths:  [[30, 31, 29]]
-found 4, potential solutions
-starting power: 30 9
-path power: [31, 28, 29] 3 4
-estimated remaining troops:  8.572
-sol: [[30, 31, 28, 29]]
-attacking from 30 to 31 with 3 troops
-8
-turn:  591
-sol: [[30, 31, 28, 29]]
-attacking from 30 to 31 with 3 troops
-7
-moving 7
-turn:  596
-sol: [[31, 28, 29]]
-attacking from 31 to 28 with 3 troops
-6
-moving 6
-turn:  601
-sol: [[28, 29]]
-attacking from 28 to 29 with 3 troops
-5
-moving 5
-turn:  606
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 4, 5, 6, 7, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 8
-enemy territories in war focus:
 0 , power:  1
 1 , power:  1
-8 , power:  1
-war_focus_enemy_power: 3
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 7: 1.0
-reinforcing defensive territory: 7
-threat to 2: 0.0
-threat to 3: 0.0
-threat to 29: -3.0
-threat to 4: -6.0
-reinforcing front line
-potential deathstacks: {2, 3, 4, 7}
-dict_items([(7, 1), (2, 0), (3, 0), (4, 4)])
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 4, 7, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 8
-enemy territories in war focus:
-0 , power:  1
-1 , power:  1
+3 , power:  1
+4 , power:  4
 5 , power:  1
 6 , power:  1
-8 , power:  1
-war_focus_enemy_power: 5
+7 , power:  3
+8 , power:  6
+war_focus_enemy_power: 18
 heuristic based check failed
 found 0, potential solutions
-turn:  715
+turn:  386
 CALCULATING ATTACK 
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 4, 7, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 12
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
+starting point power: 8
 enemy territories in war focus:
 0 , power:  1
 1 , power:  1
+3 , power:  1
+4 , power:  4
 5 , power:  1
 6 , power:  1
-8 , power:  1
-war_focus_enemy_power: 5
-current paths:  [[4]]
-current paths:  [[4, 5]]
-current paths:  [[4, 5, 0]]
-current paths:  [[4, 5, 0, 1]]
-current paths:  [[4, 5, 0, 1, 8]]
-current paths:  [[4, 5, 0, 1, 6]]
-current paths:  [[4, 5, 1]]
-current paths:  [[4, 5, 1, 8]]
-current paths:  [[4, 5, 1, 6]]
-current paths:  [[4, 5, 6]]
-current paths:  [[4, 5, 6, 8]]
-current paths:  [[4, 5, 6, 8, 1]]
-current paths:  [[4, 5, 6, 1]]
-current paths:  [[4, 6]]
-current paths:  [[4, 6, 8]]
-current paths:  [[4, 6, 8, 1]]
-current paths:  [[4, 6, 8, 1, 0]]
-current paths:  [[4, 6, 8, 1, 5]]
-current paths:  [[4, 6, 1]]
-current paths:  [[4, 6, 1, 0]]
-current paths:  [[4, 6, 1, 5]]
-current paths:  [[4, 6, 5]]
-current paths:  [[4, 6, 5, 0]]
-current paths:  [[4, 6, 5, 0, 1]]
-current paths:  [[4, 6, 5, 1]]
-found 6, potential solutions
-starting power: 4 12
-path power: [5, 6, 8, 1, 0] 5 5
-estimated remaining troops:  12.715
-sol: [[4, 5, 6, 8, 1, 0]]
-attacking from 4 to 5 with 3 troops
-11
-turn:  718
-sol: [[4, 5, 6, 8, 1, 0]]
-attacking from 4 to 5 with 3 troops
-10
-moving 10
-turn:  723
-sol: [[5, 6, 8, 1, 0]]
-attacking from 5 to 6 with 3 troops
-9
-moving 9
-turn:  728
-sol: [[6, 8, 1, 0]]
-attacking from 6 to 8 with 3 troops
-8
-moving 8
-turn:  733
-sol: [[8, 1, 0]]
-attacking from 8 to 1 with 3 troops
-7
-moving 7
-turn:  738
-sol: [[1, 0]]
-attacking from 1 to 0 with 3 troops
-6
-turn:  741
-sol: [[1, 0]]
-attacking from 1 to 0 with 3 troops
-5
-moving 5
-turn:  746
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 5
-enemy territories in war focus:
-10 , power:  13
-21 , power:  1
-war_focus_enemy_power: 14
+7 , power:  3
+8 , power:  6
+war_focus_enemy_power: 18
 heuristic based check failed
 found 0, potential solutions
 sol: []
 no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
 reinforcing defensive territories
-threat to 6: 1.0
-reinforcing defensive territory: 6
-threat to 8: 1.0
-reinforcing defensive territory: 8
-threat to 7: 0.0
-threat to 0: -3.0
-threat to 29: -3.0
-reinforcing front line
-potential deathstacks: {0, 8, 6, 7}
-dict_items([(6, 1), (8, 1), (0, 3), (7, 0)])
+victim: 2
+victim power: 8
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+victim: 36
+victim power: 16
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+victim: 2
+victim power: 8
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+threat to 2: -6.0
+victim: 36
+victim power: 16
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+threat to 36: -14.0
+looking for front line to reinforce
+distributing to only front line: 2
 CALCULATING ATTACK 
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 5
-enemy territories in war focus:
-1 , power:  7
-4 , power:  1
-5 , power:  1
-war_focus_enemy_power: 9
-heuristic based check failed
-found 0, potential solutions
-turn:  845
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
 starting point power: 8
 enemy territories in war focus:
-1 , power:  7
-4 , power:  1
+0 , power:  1
+1 , power:  1
+3 , power:  4
+4 , power:  4
 5 , power:  1
-war_focus_enemy_power: 9
+6 , power:  1
+7 , power:  3
+8 , power:  6
+war_focus_enemy_power: 21
+heuristic based check failed
+found 0, potential solutions
+turn:  502
+CALCULATING ATTACK 
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
+starting point power: 13
+enemy territories in war focus:
+0 , power:  1
+1 , power:  1
+3 , power:  4
+4 , power:  4
+5 , power:  1
+6 , power:  1
+7 , power:  3
+8 , power:  6
+war_focus_enemy_power: 21
 heuristic based check failed
 found 0, potential solutions
 sol: []
 no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
 reinforcing defensive territories
-threat to 6: 0.0
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 29: -3.0
-threat to 0: -6.0
-reinforcing front line
-potential deathstacks: {0, 8, 6, 7}
-dict_items([(0, 5), (8, 0), (6, 0), (7, 0)])
+victim: 2
+victim power: 13
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+victim: 36
+victim power: 12
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+victim: 36
+victim power: 12
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+threat to 36: -10.0
+victim: 2
+victim power: 13
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+threat to 2: -11.0
+looking for front line to reinforce
+distributing to only front line: 2
 CALCULATING ATTACK 
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 8
-enemy territories in war focus:
-1 , power:  10
-4 , power:  1
-5 , power:  1
-war_focus_enemy_power: 12
-heuristic based check failed
-found 0, potential solutions
-turn:  890
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
 starting point power: 13
 enemy territories in war focus:
-1 , power:  10
-4 , power:  1
+0 , power:  1
+1 , power:  1
+3 , power:  7
+4 , power:  4
 5 , power:  1
-war_focus_enemy_power: 12
+6 , power:  1
+7 , power:  3
+8 , power:  6
+war_focus_enemy_power: 24
 heuristic based check failed
 found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 6: 0.0
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 29: -3.0
-threat to 0: -11.0
-reinforcing front line
-potential deathstacks: {0, 8, 6, 7}
-dict_items([(0, 5), (8, 0), (6, 0), (7, 0)])
+turn:  584
 CALCULATING ATTACK 
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 13
-enemy territories in war focus:
-1 , power:  13
-4 , power:  1
-5 , power:  1
-war_focus_enemy_power: 15
-heuristic based check failed
-found 0, potential solutions
-turn:  926
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
 starting point power: 18
 enemy territories in war focus:
-1 , power:  13
-4 , power:  1
+0 , power:  1
+1 , power:  1
+3 , power:  7
+4 , power:  4
 5 , power:  1
-war_focus_enemy_power: 15
-current paths:  [[0]]
-current paths:  [[0, 1]]
-current paths:  [[0, 1, 5]]
-current paths:  [[0, 5]]
-found 1, potential solutions
-starting power: 0 18
-path power: [1, 5, 4] 3 15
-estimated remaining troops:  8.145
-sol: [[0, 1, 5, 4]]
-attacking from 0 to 1 with 3 troops
-17
-turn:  929
-sol: [[0, 1, 5, 4]]
-attacking from 0 to 1 with 3 troops
-15
-turn:  932
-sol: [[0, 1, 5, 4]]
-attacking from 0 to 1 with 3 troops
-13
-turn:  935
-sol: [[0, 1, 5, 4]]
-attacking from 0 to 1 with 3 troops
-12
-turn:  938
-sol: [[0, 1, 5, 4]]
-attacking from 0 to 1 with 3 troops
-11
-turn:  941
-sol: [[0, 1, 5, 4]]
-attacking from 0 to 1 with 3 troops
-11
-turn:  944
-sol: [[0, 1, 5, 4]]
-attacking from 0 to 1 with 3 troops
-9
-turn:  947
+6 , power:  1
+7 , power:  3
+8 , power:  6
+war_focus_enemy_power: 24
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+victim: 2
+victim power: 5
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+victim: 36
+victim power: 12
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+victim: 2
+victim power: 5
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+threat to 2: -3.0
+victim: 36
+victim power: 12
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+threat to 36: -10.0
+looking for front line to reinforce
+distributing to only front line: 2
 CALCULATING ATTACK 
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 8
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
+starting point power: 5
 enemy territories in war focus:
-1 , power:  9
+0 , power:  1
+1 , power:  1
+3 , power:  1
 4 , power:  1
 5 , power:  1
+6 , power:  1
+7 , power:  3
+8 , power:  2
+war_focus_enemy_power: 11
+heuristic based check failed
+found 0, potential solutions
+turn:  682
+CALCULATING ATTACK 
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
+starting point power: 10
+enemy territories in war focus:
+0 , power:  1
+1 , power:  1
+3 , power:  1
+4 , power:  1
+5 , power:  1
+6 , power:  1
+7 , power:  3
+8 , power:  2
 war_focus_enemy_power: 11
 heuristic based check failed
 found 0, potential solutions
 sol: []
 no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
 reinforcing defensive territories
-threat to 6: 0.0
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 29: -3.0
-threat to 0: -6.0
-reinforcing front line
-potential deathstacks: {0, 8, 6, 7}
-dict_items([(0, 5), (8, 0), (6, 0), (7, 0)])
+victim: 2
+victim power: 6
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+victim: 36
+victim power: 11
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+victim: 2
+victim power: 6
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+threat to 2: -4.0
+victim: 36
+victim power: 11
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+threat to 36: -9.0
+looking for front line to reinforce
+distributing to only front line: 2
 CALCULATING ATTACK 
 war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 8
-enemy territories in war focus:
-1 , power:  12
-4 , power:  1
-5 , power:  1
-war_focus_enemy_power: 14
-heuristic based check failed
-found 0, potential solutions
-turn:  986
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 13
-enemy territories in war focus:
-1 , power:  12
-4 , power:  1
-5 , power:  1
-war_focus_enemy_power: 14
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 2: 0.0
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 29: -3.0
-threat to 0: -11.0
-reinforcing front line
-potential deathstacks: {0, 8, 2, 7}
-dict_items([(0, 5), (8, 0), (2, 0), (7, 0)])
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 13
-enemy territories in war focus:
-1 , power:  1
-3 , power:  8
-4 , power:  1
-5 , power:  10
-6 , power:  1
-war_focus_enemy_power: 21
-heuristic based check failed
-found 0, potential solutions
-turn:  1095
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 18
-enemy territories in war focus:
-1 , power:  1
-3 , power:  8
-4 , power:  1
-5 , power:  10
-6 , power:  1
-war_focus_enemy_power: 21
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 28: 1.0
-reinforcing defensive territory: 28
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 29: -3.0
-threat to 0: -16.0
-reinforcing front line
-potential deathstacks: {28, 29}
-dict_items([(28, 1), (29, 2)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 7, 8, 28, 29}
-starting points:  [[29]]
-starting point power: 5
-enemy territories in war focus:
-30 , power:  1
-31 , power:  2
-war_focus_enemy_power: 3
-current paths:  [[29]]
-current paths:  [[29, 30]]
-current paths:  [[29, 31]]
-found 2, potential solutions
-starting power: 29 5
-path power: [31, 30] 2 3
-estimated remaining troops:  4.429
-turn:  1208
-sol: [[29, 31, 30]]
-attacking from 29 to 31 with 3 troops
-6
-turn:  1211
-sol: [[29, 31, 30]]
-attacking from 29 to 31 with 3 troops
-5
-moving 5
-turn:  1216
-sol: [[31, 30]]
-attacking from 31 to 30 with 3 troops
-4
-moving 4
-turn:  1221
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 7, 8, 28, 29, 30, 31}
-starting points:  [[30]]
-starting point power: 4
-enemy territories in war focus:
-2 , power:  5
-war_focus_enemy_power: 5
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 8: 1.0
-reinforcing defensive territory: 8
-threat to 29: 1.0
-reinforcing defensive territory: 29
-threat to 7: 0.0
-threat to 30: -2.0
-threat to 0: -16.0
-reinforcing front line
-potential deathstacks: {8, 30}
-dict_items([(8, 1), (29, 1), (30, 15)])
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 7, 8, 28, 29, 30, 31}
-starting points:  [[30]]
-starting point power: 4
-enemy territories in war focus:
-2 , power:  7
-war_focus_enemy_power: 7
-heuristic based check failed
-found 0, potential solutions
-turn:  1328
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 7, 8, 28, 29, 30, 31}
-starting points:  [[30]]
-starting point power: 19
-enemy territories in war focus:
-2 , power:  7
-war_focus_enemy_power: 7
-current paths:  [[30]]
-found 1, potential solutions
-starting power: 30 19
-path power: [2] 1 7
-estimated remaining troops:  14.001000000000001
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-18
-turn:  1331
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-16
-turn:  1334
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-16
-turn:  1337
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-15
-turn:  1340
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-13
-turn:  1343
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-11
-turn:  1346
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-10
-turn:  1349
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-8
-turn:  1352
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-8
-moving 8
-turn:  1357
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 2, 7, 8, 28, 29, 30, 31}
-starting points:  [[0], [2]]
-starting point power: 26
-enemy territories in war focus:
-1 , power:  1
-3 , power:  8
-4 , power:  1
-5 , power:  1
-6 , power:  1
-war_focus_enemy_power: 12
-current paths:  [[0], [2]]
-current paths:  [[0, 1], [2]]
-current paths:  [[0, 1, 5], [2]]
-current paths:  [[0, 1, 5, 4], [2]]
-current paths:  [[0, 1, 5, 4, 6], [2]]
-current paths:  [[0, 1, 5, 4], [2, 3]]
-current paths:  [[0, 1, 5, 6], [2]]
-current paths:  [[0, 1, 5, 6, 4], [2]]
-current paths:  [[0, 1, 5, 6], [2, 3]]
-current paths:  [[0, 1, 5], [2, 3]]
-current paths:  [[0, 1, 5, 4], [2, 3]]
-current paths:  [[0, 1, 5, 6], [2, 3]]
-current paths:  [[0, 1, 5], [2, 3, 6]]
-current paths:  [[0, 1, 6], [2]]
-current paths:  [[0, 1, 6, 4], [2]]
-current paths:  [[0, 1, 6, 4, 5], [2]]
-current paths:  [[0, 1, 6, 4], [2, 3]]
-current paths:  [[0, 1, 6, 5], [2]]
-current paths:  [[0, 1, 6, 5, 4], [2]]
-current paths:  [[0, 1, 6, 5], [2, 3]]
-current paths:  [[0, 1, 6], [2, 3]]
-current paths:  [[0, 1, 6, 4], [2, 3]]
-current paths:  [[0, 1, 6, 5], [2, 3]]
-current paths:  [[0, 1], [2, 3]]
-current paths:  [[0, 1, 5], [2, 3]]
-current paths:  [[0, 1, 5, 4], [2, 3]]
-current paths:  [[0, 1, 5, 6], [2, 3]]
-current paths:  [[0, 1, 5], [2, 3, 6]]
-current paths:  [[0, 1, 6], [2, 3]]
-current paths:  [[0, 1, 6, 4], [2, 3]]
-current paths:  [[0, 1, 6, 5], [2, 3]]
-current paths:  [[0, 1], [2, 3, 6]]
-current paths:  [[0, 1, 5], [2, 3, 6]]
-current paths:  [[0, 1], [2, 3, 6, 4]]
-current paths:  [[0, 1], [2, 3, 6, 5]]
-current paths:  [[0, 5], [2]]
-current paths:  [[0, 5, 1], [2]]
-current paths:  [[0, 5, 1, 6], [2]]
-current paths:  [[0, 5, 1, 6, 4], [2]]
-current paths:  [[0, 5, 1, 6], [2, 3]]
-current paths:  [[0, 5, 1], [2, 3]]
-current paths:  [[0, 5, 1, 6], [2, 3]]
-current paths:  [[0, 5, 1], [2, 3, 6]]
-current paths:  [[0, 5, 4], [2]]
-current paths:  [[0, 5, 4, 6], [2]]
-current paths:  [[0, 5, 4, 6, 1], [2]]
-current paths:  [[0, 5, 4, 6], [2, 3]]
-current paths:  [[0, 5, 4], [2, 3]]
-current paths:  [[0, 5, 4, 6], [2, 3]]
-current paths:  [[0, 5, 4], [2, 3, 6]]
-current paths:  [[0, 5, 6], [2]]
-current paths:  [[0, 5, 6, 1], [2]]
-current paths:  [[0, 5, 6, 4], [2]]
-current paths:  [[0, 5, 6], [2, 3]]
-current paths:  [[0, 5], [2, 3]]
-current paths:  [[0, 5, 1], [2, 3]]
-current paths:  [[0, 5, 1, 6], [2, 3]]
-current paths:  [[0, 5, 1], [2, 3, 6]]
-current paths:  [[0, 5, 4], [2, 3]]
-current paths:  [[0, 5, 4, 6], [2, 3]]
-current paths:  [[0, 5, 4], [2, 3, 6]]
-current paths:  [[0, 5, 6], [2, 3]]
-current paths:  [[0, 5], [2, 3, 6]]
-current paths:  [[0, 5, 1], [2, 3, 6]]
-current paths:  [[0, 5, 4], [2, 3, 6]]
-current paths:  [[0, 5], [2, 3, 6, 1]]
-current paths:  [[0, 5], [2, 3, 6, 4]]
-current paths:  [[0], [2, 3]]
-current paths:  [[0, 1], [2, 3]]
-current paths:  [[0, 1, 5], [2, 3]]
-current paths:  [[0, 1, 5, 4], [2, 3]]
-current paths:  [[0, 1, 5, 6], [2, 3]]
-current paths:  [[0, 1, 5], [2, 3, 6]]
-current paths:  [[0, 1, 6], [2, 3]]
-current paths:  [[0, 1, 6, 4], [2, 3]]
-current paths:  [[0, 1, 6, 5], [2, 3]]
-current paths:  [[0, 1], [2, 3, 6]]
-current paths:  [[0, 1, 5], [2, 3, 6]]
-current paths:  [[0, 1], [2, 3, 6, 4]]
-current paths:  [[0, 1], [2, 3, 6, 5]]
-current paths:  [[0, 5], [2, 3]]
-current paths:  [[0, 5, 1], [2, 3]]
-current paths:  [[0, 5, 1, 6], [2, 3]]
-current paths:  [[0, 5, 1], [2, 3, 6]]
-current paths:  [[0, 5, 4], [2, 3]]
-current paths:  [[0, 5, 4, 6], [2, 3]]
-current paths:  [[0, 5, 4], [2, 3, 6]]
-current paths:  [[0, 5, 6], [2, 3]]
-current paths:  [[0, 5], [2, 3, 6]]
-current paths:  [[0, 5, 1], [2, 3, 6]]
-current paths:  [[0, 5, 4], [2, 3, 6]]
-current paths:  [[0, 5], [2, 3, 6, 1]]
-current paths:  [[0, 5], [2, 3, 6, 4]]
-current paths:  [[0], [2, 3, 6]]
-current paths:  [[0, 1], [2, 3, 6]]
-current paths:  [[0, 1, 5], [2, 3, 6]]
-current paths:  [[0, 1], [2, 3, 6, 4]]
-current paths:  [[0, 1], [2, 3, 6, 5]]
-current paths:  [[0, 5], [2, 3, 6]]
-current paths:  [[0, 5, 1], [2, 3, 6]]
-current paths:  [[0, 5, 4], [2, 3, 6]]
-current paths:  [[0, 5], [2, 3, 6, 1]]
-current paths:  [[0, 5], [2, 3, 6, 4]]
-current paths:  [[0], [2, 3, 6, 1]]
-current paths:  [[0, 5], [2, 3, 6, 1]]
-current paths:  [[0], [2, 3, 6, 1, 5]]
-current paths:  [[0], [2, 3, 6, 4]]
-current paths:  [[0, 1], [2, 3, 6, 4]]
-current paths:  [[0, 5], [2, 3, 6, 4]]
-current paths:  [[0], [2, 3, 6, 4, 5]]
-current paths:  [[0], [2, 3, 6, 5]]
-current paths:  [[0, 1], [2, 3, 6, 5]]
-current paths:  [[0], [2, 3, 6, 5, 4]]
-found 83, potential solutions
-starting power: 2 8
-path power: [3, 6, 1, 5, 4] 5 12
-estimated remaining troops:  2.716000000000001
-sol: [[2, 3, 6, 1, 5, 4]]
-attacking from 2 to 3 with 3 troops
-7
-turn:  1360
-sol: [[2, 3, 6, 1, 5, 4]]
-attacking from 2 to 3 with 3 troops
-7
-turn:  1363
-sol: [[2, 3, 6, 1, 5, 4]]
-attacking from 2 to 3 with 3 troops
-7
-turn:  1366
-sol: [[2, 3, 6, 1, 5, 4]]
-attacking from 2 to 3 with 3 troops
-7
-turn:  1369
-sol: [[2, 3, 6, 1, 5, 4]]
-attacking from 2 to 3 with 3 troops
-6
-moving 6
-turn:  1374
-sol: [[3, 6, 1, 5, 4]]
-attacking from 3 to 6 with 3 troops
-5
-moving 5
-turn:  1379
-sol: [[6, 1, 5, 4]]
-attacking from 6 to 1 with 3 troops
-4
-turn:  1382
-sol: [[6, 1, 5, 4]]
-attacking from 6 to 1 with 3 troops
-3
-moving 3
-turn:  1387
-sol: [[1, 5, 4]]
-attacking from 1 to 5 with 2 troops
-2
-turn:  1390
-sol: [[1, 5, 4]]
-attacking from 1 to 5 with 1 troops
-1
-turn:  1393
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 1, 2, 3, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0]]
-starting point power: 18
-enemy territories in war focus:
-4 , power:  1
-5 , power:  1
-war_focus_enemy_power: 2
-current paths:  [[0]]
-current paths:  [[0, 5]]
-found 1, potential solutions
-starting power: 0 18
-path power: [5, 4] 2 2
-estimated remaining troops:  18.286
-sol: [[0, 5, 4]]
-attacking from 0 to 5 with 3 troops
-17
-moving 17
-turn:  1398
-sol: [[5, 4]]
-attacking from 5 to 4 with 3 troops
-16
-moving 16
-turn:  1403
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 16
-enemy territories in war focus:
-10 , power:  18
-21 , power:  1
-war_focus_enemy_power: 19
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 0: 1.0
-reinforcing defensive territory: 0
-threat to 2: 1.0
-reinforcing defensive territory: 2
-threat to 31: 1.0
-reinforcing defensive territory: 31
-threat to 28: 0.0
-threat to 4: -10.0
-reinforcing front line
-potential deathstacks: {2, 28, 31}
-dict_items([(0, 1), (2, 6), (31, 1), (28, 0)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 31}
-starting points:  []
-starting point power: 0
-enemy territories in war focus:
-29 , power:  1
-30 , power:  3
-war_focus_enemy_power: 4
-heuristic based check failed
-found 0, potential solutions
-turn:  1502
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 31}
+my_territories:  {2, 36, 28, 29, 30, 31}
 starting points:  [[2]]
-starting point power: 7
-enemy territories in war focus:
-29 , power:  1
-30 , power:  3
-war_focus_enemy_power: 4
-current paths:  [[2]]
-current paths:  [[2, 30]]
-found 1, potential solutions
-starting power: 2 7
-path power: [30, 29] 2 4
-estimated remaining troops:  5.572
-sol: [[2, 30, 29]]
-attacking from 2 to 30 with 3 troops
-6
-turn:  1505
-sol: [[2, 30, 29]]
-attacking from 2 to 30 with 3 troops
-5
-moving 5
-turn:  1510
-sol: [[30, 29]]
-attacking from 30 to 29 with 3 troops
-4
-turn:  1513
-sol: [[30, 29]]
-attacking from 30 to 29 with 3 troops
-3
-moving 3
-turn:  1518
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 12
-enemy territories in war focus:
-10 , power:  20
-21 , power:  4
-war_focus_enemy_power: 24
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 5: 1.0
-reinforcing defensive territory: 5
-threat to 6: 1.0
-reinforcing defensive territory: 6
-threat to 8: 0.0
-threat to 29: -1.0
-threat to 4: -10.0
-reinforcing front line
-potential deathstacks: {8, 5, 6}
-dict_items([(5, 4), (6, 1), (8, 0)])
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[4]]
-starting point power: 12
-enemy territories in war focus:
-0 , power:  1
-1 , power:  1
-war_focus_enemy_power: 2
-found 0, potential solutions
-turn:  1654
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[4], [5]]
-starting point power: 17
-enemy territories in war focus:
-0 , power:  1
-1 , power:  1
-war_focus_enemy_power: 2
-current paths:  [[4], [5]]
-current paths:  [[4], [5, 0]]
-current paths:  [[4], [5, 1]]
-found 2, potential solutions
-starting power: 5 5
-path power: [1, 0] 2 2
-estimated remaining troops:  5.286
-sol: [[5, 1, 0]]
-attacking from 5 to 1 with 3 troops
-4
-moving 4
-turn:  1659
-sol: [[1, 0]]
-attacking from 1 to 0 with 3 troops
-3
-moving 3
-turn:  1664
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 28, 29, 30, 31}
-starting points:  [[0], [4]]
-starting point power: 15
-enemy territories in war focus:
-10 , power:  1
-21 , power:  1
-war_focus_enemy_power: 2
-current paths:  [[0], [4]]
-current paths:  [[0, 21], [4]]
-current paths:  [[0], [4, 10]]
-found 2, potential solutions
-starting power: 0 3
-path power: [21] 1 1
-estimated remaining troops:  3.143
-starting power: 4 12
-path power: [10] 1 1
-estimated remaining troops:  12.143
-sol: [[0, 21], [4, 10]]
-attacking from 0 to 21 with 2 troops
-2
-moving 2
-turn:  1669
-sol: [[4, 10]]
-attacking from 4 to 10 with 3 troops
-11
-moving 11
-turn:  1674
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 0: 1.0
-reinforcing defensive territory: 0
-threat to 29: -1.0
-threat to 10: -9.0
-reinforcing front line
-potential deathstacks: {0}
-dict_items([(0, 46)])
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 28, 29, 30, 31}
-starting points:  [[10]]
-starting point power: 11
-enemy territories in war focus:
-21 , power:  1
-war_focus_enemy_power: 1
-found 0, potential solutions
-turn:  1788
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 28, 29, 30, 31}
-starting points:  [[0], [10]]
-starting point power: 58
-enemy territories in war focus:
-21 , power:  1
-war_focus_enemy_power: 1
-current paths:  [[0], [10]]
-found 1, potential solutions
-starting power: 0 47
-path power: [21] 1 1
-estimated remaining troops:  47.143
-sol: [[0, 21]]
-attacking from 0 to 21 with 3 troops
-46
-moving 46
-turn:  1793
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: -1.0
-threat to 10: -9.0
-threat to 21: -44.0
-reinforcing front line
-potential deathstacks: {10, 29}
-dict_items([(10, 12), (29, 0)])
-CALCULATING ATTACK 
-war focus:  {32, 33, 34, 35, 36, 37, 9, 10, 11, 12, 13, 14, 15, 22}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[10], [29]]
-starting point power: 14
-enemy territories in war focus:
-32 , power:  15
-33 , power:  2
-34 , power:  16
-35 , power:  1
-36 , power:  2
-37 , power:  12
-9 , power:  33
-11 , power:  14
-12 , power:  1
-13 , power:  18
-14 , power:  1
-15 , power:  12
-22 , power:  1
-war_focus_enemy_power: 128
-heuristic based check failed
-found 0, potential solutions
-turn:  1897
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: -1.0
-threat to 10: -21.0
-threat to 21: -44.0
-reinforcing front line
-potential deathstacks: {10, 29}
-dict_items([(10, 12), (29, 0)])
-CALCULATING ATTACK 
-war focus:  {32, 33, 34, 35, 36, 37, 9, 10, 11, 12, 13, 14, 15, 22}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[10], [29]]
-starting point power: 26
-enemy territories in war focus:
-32 , power:  21
-33 , power:  1
-34 , power:  22
-35 , power:  1
-36 , power:  3
-37 , power:  8
-9 , power:  45
-11 , power:  20
-12 , power:  7
-13 , power:  71
-14 , power:  1
-15 , power:  18
-22 , power:  1
-war_focus_enemy_power: 219
-heuristic based check failed
-found 0, potential solutions
-turn:  2025
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: -1.0
-threat to 10: -33.0
-threat to 21: -44.0
-reinforcing front line
-potential deathstacks: {10, 29}
-dict_items([(10, 12), (29, 0)])
-CALCULATING ATTACK 
-war focus:  {32, 33, 34, 35, 36, 37, 9, 10, 11, 12, 13, 14, 15, 22}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[10], [29]]
-starting point power: 38
-enemy territories in war focus:
-32 , power:  1
-33 , power:  20
-34 , power:  21
-35 , power:  5
-36 , power:  4
-37 , power:  9
-9 , power:  48
-11 , power:  20
-12 , power:  15
-13 , power:  74
-14 , power:  5
-15 , power:  18
-22 , power:  5
-war_focus_enemy_power: 245
-heuristic based check failed
-found 0, potential solutions
-turn:  2067
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: -1.0
-threat to 21: -44.0
-threat to 10: -45.0
-reinforcing front line
-potential deathstacks: {10, 29}
-dict_items([(10, 12), (29, 0)])
-CALCULATING ATTACK 
-war focus:  {32, 33, 34, 35, 36, 37, 9, 10, 11, 12, 13, 14, 15, 22}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[10], [29]]
-starting point power: 50
-enemy territories in war focus:
-32 , power:  8
-33 , power:  23
-34 , power:  24
-35 , power:  2
-36 , power:  24
-37 , power:  5
-9 , power:  62
-11 , power:  27
-12 , power:  20
-13 , power:  77
-14 , power:  5
-15 , power:  1
-22 , power:  5
-war_focus_enemy_power: 283
-heuristic based check failed
-found 0, potential solutions
-turn:  2136
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: 1.0
-reinforcing defensive territory: 29
-threat to 21: -44.0
-threat to 10: -57.0
-reinforcing front line
-potential deathstacks: {10, 29}
-dict_items([(29, 1), (10, 11)])
-CALCULATING ATTACK 
-war focus:  {32, 33, 34, 35, 36, 37, 9, 10, 11, 12, 13, 14, 15, 22}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[10]]
-starting point power: 59
-enemy territories in war focus:
-32 , power:  8
-33 , power:  2
-34 , power:  24
-35 , power:  22
-36 , power:  24
-37 , power:  1
-9 , power:  65
-11 , power:  27
-12 , power:  25
-13 , power:  80
-14 , power:  5
-15 , power:  1
-22 , power:  5
-war_focus_enemy_power: 289
-heuristic based check failed
-found 0, potential solutions
-turn:  2196
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: 0.0
-threat to 21: -44.0
-threat to 10: -68.0
-reinforcing front line
-potential deathstacks: {10, 29}
-dict_items([(10, 12), (29, 0)])
-CALCULATING ATTACK 
-war focus:  {32, 33, 34, 35, 36, 37, 9, 10, 11, 12, 13, 14, 15, 22}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[10]]
-starting point power: 70
-enemy territories in war focus:
-32 , power:  8
-33 , power:  21
-34 , power:  1
-35 , power:  1
-36 , power:  23
-37 , power:  21
-9 , power:  68
-11 , power:  27
-12 , power:  29
-13 , power:  82
-14 , power:  5
-15 , power:  1
-22 , power:  1
-war_focus_enemy_power: 288
-heuristic based check failed
-found 0, potential solutions
-turn:  2289
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 3: 1.0
-reinforcing defensive territory: 3
-threat to 8: 0.0
-threat to 28: 0.0
-threat to 31: 0.0
-threat to 21: -44.0
-threat to 10: -80.0
-reinforcing front line
-potential deathstacks: {28, 31}
-dict_items([(3, 1), (28, 3), (31, 0)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 31}
-starting points:  []
-starting point power: 0
-enemy territories in war focus:
-29 , power:  1
-30 , power:  1
-war_focus_enemy_power: 2
-heuristic based check failed
-found 0, potential solutions
-turn:  2400
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 31}
-starting points:  [[28]]
-starting point power: 5
-enemy territories in war focus:
-29 , power:  1
-30 , power:  1
-war_focus_enemy_power: 2
-current paths:  [[28]]
-current paths:  [[28, 29]]
-found 1, potential solutions
-starting power: 28 5
-path power: [29, 30] 2 2
-estimated remaining troops:  5.286
-sol: [[28, 29, 30]]
-attacking from 28 to 29 with 3 troops
-4
-moving 4
-turn:  2405
-sol: [[29, 30]]
-attacking from 29 to 30 with 3 troops
-3
-moving 3
-turn:  2410
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[30]]
-starting point power: 3
-enemy territories in war focus:
-2 , power:  17
-war_focus_enemy_power: 17
-heuristic based check failed
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 3: 0.0
-threat to 8: 0.0
-threat to 31: 0.0
-threat to 30: -1.0
-threat to 21: -44.0
-threat to 10: -80.0
-reinforcing front line
-potential deathstacks: {30, 31}
-dict_items([(30, 89), (31, 0)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 30, 31}
-starting points:  [[30]]
-starting point power: 3
-enemy territories in war focus:
-28 , power:  23
-29 , power:  1
-war_focus_enemy_power: 24
-heuristic based check failed
-found 0, potential solutions
-turn:  2613
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 30, 31}
-starting points:  [[30]]
-starting point power: 92
-enemy territories in war focus:
-28 , power:  23
-29 , power:  1
-war_focus_enemy_power: 24
-current paths:  [[30]]
-current paths:  [[30, 29]]
-found 1, potential solutions
-starting power: 30 92
-path power: [29, 28] 2 24
-estimated remaining troops:  73.432
-sol: [[30, 29, 28]]
-attacking from 30 to 29 with 3 troops
-91
-moving 91
-turn:  2618
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-90
-turn:  2621
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-90
-turn:  2624
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-90
-turn:  2627
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-88
-turn:  2630
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-87
-turn:  2633
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-87
-turn:  2636
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-86
-turn:  2639
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-84
-turn:  2642
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-84
-turn:  2645
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-83
-turn:  2648
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-81
-turn:  2651
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-80
-turn:  2654
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-78
-turn:  2657
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-78
-turn:  2660
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-77
-turn:  2663
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-75
-turn:  2666
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-75
-turn:  2669
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-74
-turn:  2672
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-74
-turn:  2675
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-72
-turn:  2678
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-71
-turn:  2681
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-70
-turn:  2684
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-69
-turn:  2687
-sol: [[29, 28]]
-attacking from 29 to 28 with 3 troops
-68
-moving 68
-turn:  2692
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28]]
-starting point power: 68
-enemy territories in war focus:
-2 , power:  32
-war_focus_enemy_power: 32
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: 1.0
-reinforcing defensive territory: 29
-threat to 30: 1.0
-reinforcing defensive territory: 30
-threat to 3: 0.0
-threat to 8: 0.0
-threat to 21: -44.0
-threat to 10: -80.0
-reinforcing front line
-potential deathstacks: {8, 3, 30}
-dict_items([(29, 1), (30, 5), (8, 0), (3, 0)])
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28]]
-starting point power: 68
-enemy territories in war focus:
-2 , power:  35
-war_focus_enemy_power: 35
-found 0, potential solutions
-turn:  2765
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 74
-enemy territories in war focus:
-2 , power:  35
-war_focus_enemy_power: 35
-current paths:  [[28], [30]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 3: 0.0
-threat to 8: 0.0
-threat to 29: 0.0
-threat to 30: -4.0
-threat to 21: -44.0
-threat to 10: -80.0
-reinforcing front line
-potential deathstacks: {8, 3, 30}
-dict_items([(8, 0), (3, 0), (30, 6)])
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 74
-enemy territories in war focus:
-2 , power:  38
-war_focus_enemy_power: 38
-current paths:  [[28], [30]]
-found 0, potential solutions
-turn:  2849
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 80
-enemy territories in war focus:
-2 , power:  38
-war_focus_enemy_power: 38
-current paths:  [[28], [30]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 3: 0.0
-threat to 8: 0.0
-threat to 29: 0.0
-threat to 30: -10.0
-threat to 21: -44.0
-threat to 10: -80.0
-reinforcing front line
-potential deathstacks: {8, 3, 30}
-dict_items([(8, 0), (3, 0), (30, 6)])
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 80
-enemy territories in war focus:
-2 , power:  41
-war_focus_enemy_power: 41
-current paths:  [[28], [30]]
-found 0, potential solutions
-turn:  2917
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 86
-enemy territories in war focus:
-2 , power:  41
-war_focus_enemy_power: 41
-current paths:  [[28], [30]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: 1.0
-reinforcing defensive territory: 29
-threat to 3: 0.0
-threat to 8: 0.0
-threat to 30: -16.0
-threat to 21: -44.0
-threat to 10: -80.0
-reinforcing front line
-potential deathstacks: {8, 3, 30}
-dict_items([(29, 1), (8, 0), (3, 0), (30, 5)])
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 86
-enemy territories in war focus:
-2 , power:  44
-war_focus_enemy_power: 44
-current paths:  [[28], [30]]
-found 0, potential solutions
-turn:  3013
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 3, 4, 5, 6, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 91
-enemy territories in war focus:
-2 , power:  44
-war_focus_enemy_power: 44
-current paths:  [[28], [30]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 29: 0.0
-threat to 30: -21.0
-threat to 21: -44.0
-threat to 10: -80.0
-reinforcing front line
-potential deathstacks: {8, 30}
-dict_items([(8, 0), (30, 5)])
-CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[28], [30]]
-starting point power: 91
-enemy territories in war focus:
-2 , power:  1
-war_focus_enemy_power: 1
-current paths:  [[28], [30]]
-found 1, potential solutions
-starting power: 30 23
-path power: [2] 1 1
-estimated remaining troops:  23.143
-turn:  3160
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-27
-moving 27
-turn:  3165
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {2, 7, 8, 10, 21, 28, 29, 30, 31}
-starting points:  [[2], [10], [21]]
-starting point power: 155
+starting point power: 6
 enemy territories in war focus:
 0 , power:  1
 1 , power:  1
 3 , power:  1
-4 , power:  37
+4 , power:  13
 5 , power:  1
 6 , power:  1
-war_focus_enemy_power: 42
-current paths:  [[2], [10], [21]]
-current paths:  [[2, 3], [10], [21]]
-current paths:  [[2, 3, 6], [10], [21]]
-current paths:  [[2, 3, 6, 1], [10], [21]]
-current paths:  [[2, 3, 6, 1, 0], [10], [21]]
-current paths:  [[2, 3, 6, 1, 0, 5], [10], [21]]
-current paths:  [[2, 3, 6, 1, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 5], [10], [21]]
-current paths:  [[2, 3, 6, 1, 5, 0], [10], [21]]
-current paths:  [[2, 3, 6, 1, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 5], [10], [21]]
-current paths:  [[2, 3, 6, 5, 0], [10], [21]]
-current paths:  [[2, 3, 6, 5, 0, 1], [10], [21]]
-current paths:  [[2, 3, 6, 5, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 1], [10], [21]]
-current paths:  [[2, 3, 6, 5, 1, 0], [10], [21]]
-current paths:  [[2, 3, 6, 5, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10, 4], [21]]
-current paths:  [[2, 3, 6], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 0, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0]]
-current paths:  [[2, 3, 6], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 5]]
-current paths:  [[2, 3], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10, 4], [21]]
-current paths:  [[2, 3], [10, 4], [21]]
-current paths:  [[2, 3, 6], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 0], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5, 1], [10, 4], [21]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 0, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4, 5], [21]]
-current paths:  [[2, 3], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6, 1], [10, 4, 5], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 0, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 0, 1], [21]]
-current paths:  [[2], [10, 4, 5, 0, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 0, 1], [21]]
-current paths:  [[2], [10, 4, 5, 0, 1, 6], [21]]
-current paths:  [[2], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3, 6], [10, 4, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 0], [21]]
-current paths:  [[2], [10, 4, 5, 1, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 1, 6], [21]]
-current paths:  [[2], [10, 4, 5, 1, 6, 3], [21]]
-current paths:  [[2], [10, 4, 5, 1, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 1, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 5, 6, 1], [21]]
-current paths:  [[2], [10, 4, 5, 6, 1, 0], [21]]
-current paths:  [[2], [10, 4, 5, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 3], [21]]
-current paths:  [[2], [10, 4, 5, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 1, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 6], [21]]
-current paths:  [[2, 3], [10, 4, 6], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 0], [21]]
-current paths:  [[2], [10, 4, 6, 1, 0, 5], [21]]
-current paths:  [[2], [10, 4, 6, 1, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 1, 5], [21]]
-current paths:  [[2], [10, 4, 6, 1, 5, 0], [21]]
-current paths:  [[2], [10, 4, 6, 1, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5, 0], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 0], [21]]
-current paths:  [[2], [10, 4, 6, 5, 0, 1], [21]]
-current paths:  [[2], [10, 4, 6, 5, 1], [21]]
-current paths:  [[2, 3], [10, 4, 6, 5, 1], [21]]
-current paths:  [[2], [10, 4, 6, 5, 1, 0], [21]]
-current paths:  [[2], [10, 4, 6, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0]]
-current paths:  [[2, 3], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 1, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 3]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10], [21, 0]]
-current paths:  [[2, 3], [10], [21, 0]]
-current paths:  [[2, 3, 6], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5, 1], [10], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 5]]
-current paths:  [[2, 3], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10, 4], [21, 0]]
-current paths:  [[2, 3], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 1], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6, 5], [10, 4], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3, 6], [10, 4, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 1, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 5, 6], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2, 3], [10, 4, 6, 5], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5, 1], [21, 0]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 3]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10], [21, 0, 1]]
-current paths:  [[2, 3], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6, 5], [10], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6, 5], [21, 0, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 3]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 1, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5, 6]]
-current paths:  [[2], [10], [21, 0, 1, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 4]]
-current paths:  [[2], [10], [21, 0, 1, 5, 4, 6]]
-current paths:  [[2], [10], [21, 0, 1, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 5, 6]]
-current paths:  [[2], [10], [21, 0, 1, 5, 6, 3]]
-current paths:  [[2], [10], [21, 0, 1, 5, 6, 4]]
-current paths:  [[2], [10], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4, 5], [21, 0, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 3]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10], [21, 0, 1, 6, 3]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 3]]
-current paths:  [[2], [10], [21, 0, 1, 6, 4]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 4]]
-current paths:  [[2], [10], [21, 0, 1, 6, 4, 5]]
-current paths:  [[2], [10], [21, 0, 1, 6, 5]]
-current paths:  [[2, 3], [10], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10, 4], [21, 0, 1, 6, 5]]
-current paths:  [[2], [10], [21, 0, 1, 6, 5, 4]]
-current paths:  [[2], [10], [21, 0, 5]]
-current paths:  [[2, 3], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6, 1], [10], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3, 6], [10, 4], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2, 3], [10, 4, 6], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 1], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6, 3], [21, 0, 5]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4, 6], [21, 0, 5, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1, 6]]
-current paths:  [[2], [10], [21, 0, 5, 1, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 1, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 1, 6]]
-current paths:  [[2], [10], [21, 0, 5, 1, 6, 3]]
-current paths:  [[2], [10], [21, 0, 5, 1, 6, 4]]
-current paths:  [[2], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3, 6], [10], [21, 0, 5, 4]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4, 6]]
-current paths:  [[2], [10], [21, 0, 5, 4, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 4, 6]]
-current paths:  [[2], [10], [21, 0, 5, 4, 6, 1]]
-current paths:  [[2], [10], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2, 3], [10, 4], [21, 0, 5, 6]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10], [21, 0, 5, 6, 1]]
-current paths:  [[2, 3], [10], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10, 4], [21, 0, 5, 6, 1]]
-current paths:  [[2], [10], [21, 0, 5, 6, 3]]
-current paths:  [[2], [10], [21, 0, 5, 6, 4]]
-found 1396, potential solutions
-starting power: 2 27
-path power: [3, 6, 1, 5, 0] 5 5
-estimated remaining troops:  27.715
-starting power: 10 82
-path power: [4] 1 37
-estimated remaining troops:  51.291
-sol: [[2, 3, 6, 1, 5, 0], [10, 4]]
-attacking from 2 to 3 with 3 troops
-26
-moving 26
-turn:  3170
-sol: [[10, 4], [3, 6, 1, 5, 0]]
-attacking from 10 to 4 with 3 troops
-81
-turn:  3173
-sol: [[3, 6, 1, 5, 0], [10, 4]]
-attacking from 3 to 6 with 3 troops
-25
-moving 25
-turn:  3178
-sol: [[10, 4], [6, 1, 5, 0]]
-attacking from 10 to 4 with 3 troops
-81
-turn:  3181
-sol: [[6, 1, 5, 0], [10, 4]]
-attacking from 6 to 1 with 3 troops
-24
-turn:  3184
-sol: [[10, 4], [6, 1, 5, 0]]
-attacking from 10 to 4 with 3 troops
-81
-turn:  3187
-sol: [[6, 1, 5, 0], [10, 4]]
-attacking from 6 to 1 with 3 troops
-23
-moving 23
-turn:  3192
-sol: [[10, 4], [1, 5, 0]]
-attacking from 10 to 4 with 3 troops
-79
-turn:  3195
-sol: [[1, 5, 0], [10, 4]]
-attacking from 1 to 5 with 3 troops
-22
-moving 22
-turn:  3200
-sol: [[10, 4], [5, 0]]
-attacking from 10 to 4 with 3 troops
-79
-turn:  3203
-sol: [[5, 0], [10, 4]]
-attacking from 5 to 0 with 3 troops
-21
-turn:  3206
-sol: [[10, 4], [5, 0]]
-attacking from 10 to 4 with 3 troops
-79
-turn:  3209
-sol: [[5, 0], [10, 4]]
-attacking from 5 to 0 with 3 troops
-20
-turn:  3212
-sol: [[10, 4], [5, 0]]
-attacking from 10 to 4 with 3 troops
-79
-turn:  3215
-sol: [[5, 0], [10, 4]]
-attacking from 5 to 0 with 3 troops
-19
-turn:  3218
-sol: [[10, 4], [5, 0]]
-attacking from 10 to 4 with 3 troops
-79
-turn:  3221
-sol: [[5, 0], [10, 4]]
-attacking from 5 to 0 with 3 troops
-18
-moving 18
-turn:  3226
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-77
-turn:  3229
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-75
-turn:  3232
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-75
-turn:  3235
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-74
-turn:  3238
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-73
-turn:  3241
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-72
-turn:  3244
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-72
-turn:  3247
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-70
-turn:  3250
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-68
-turn:  3253
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-68
-turn:  3256
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-67
-turn:  3259
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-65
-turn:  3262
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-64
-turn:  3265
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-62
-turn:  3268
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-62
-turn:  3271
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-61
-turn:  3274
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-60
-turn:  3277
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-59
-turn:  3280
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-58
-turn:  3283
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-56
-turn:  3286
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-56
-turn:  3289
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-54
-turn:  3292
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-53
-turn:  3295
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-52
-turn:  3298
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-52
-turn:  3301
-sol: [[10, 4]]
-attacking from 10 to 4 with 3 troops
-51
-moving 51
-turn:  3306
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: 0.0
-threat to 21: -44.0
-threat to 4: -49.0
-reinforcing front line
-potential deathstacks: {4}
-dict_items([(4, 11)])
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [4], [21]]
-starting point power: 115
-enemy territories in war focus:
-10 , power:  85
-war_focus_enemy_power: 85
-current paths:  [[0], [4], [21]]
-found 0, potential solutions
-turn:  3428
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [4], [21]]
-starting point power: 126
-enemy territories in war focus:
-10 , power:  85
-war_focus_enemy_power: 85
-current paths:  [[0], [4], [21]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: 0.0
-threat to 21: -44.0
-threat to 4: -60.0
-reinforcing front line
-potential deathstacks: {4}
-dict_items([(4, 11)])
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [4], [21]]
-starting point power: 126
-enemy territories in war focus:
-10 , power:  101
-war_focus_enemy_power: 101
-current paths:  [[0], [4], [21]]
-found 0, potential solutions
-turn:  3492
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [4], [21]]
-starting point power: 137
-enemy territories in war focus:
-10 , power:  101
-war_focus_enemy_power: 101
-current paths:  [[0], [4], [21]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 30: 1.0
-reinforcing defensive territory: 30
-threat to 31: 0.0
-threat to 21: -44.0
-threat to 28: -66.0
-threat to 4: -71.0
-reinforcing front line
-potential deathstacks: {28, 30, 31}
-dict_items([(30, 1), (28, 8), (31, 0)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 21, 28, 30, 31}
-starting points:  [[28]]
-starting point power: 68
-enemy territories in war focus:
-29 , power:  108
-war_focus_enemy_power: 108
+7 , power:  3
+8 , power:  1
+war_focus_enemy_power: 22
 heuristic based check failed
 found 0, potential solutions
-turn:  3610
+turn:  793
+sol: []
+no valid paths
+reinforcing defensive territories
+victim: 2
+victim power: 9
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+victim: 36
+victim power: 11
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+victim: 2
+victim power: 9
+neighbour: 3
+neighbour_power: 0
+neighbour: 8
+neighbour_power: 0
+threat to 2: -7.0
+victim: 36
+victim power: 11
+neighbour: 33
+neighbour_power: 0
+neighbour: 34
+neighbour_power: 0
+neighbour: 13
+neighbour_power: 0
+neighbour: 15
+neighbour_power: 0
+neighbour: 32
+neighbour_power: 0
+threat to 36: -9.0
+looking for front line to reinforce
+distributing to only front line: 2
 CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 21, 28, 30, 31}
-starting points:  [[28]]
-starting point power: 76
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
+starting point power: 9
 enemy territories in war focus:
-29 , power:  108
-war_focus_enemy_power: 108
+0 , power:  10
+1 , power:  1
+3 , power:  1
+4 , power:  1
+5 , power:  1
+6 , power:  1
+7 , power:  2
+8 , power:  1
+war_focus_enemy_power: 18
+heuristic based check failed
+found 0, potential solutions
+turn:  933
+CALCULATING ATTACK 
+war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
+starting point power: 14
+enemy territories in war focus:
+0 , power:  10
+1 , power:  1
+3 , power:  1
+4 , power:  1
+5 , power:  1
+6 , power:  1
+7 , power:  2
+8 , power:  1
+war_focus_enemy_power: 18
 heuristic based check failed
 found 0, potential solutions
 sol: []
 no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
 reinforcing defensive territories
-threat to 6: 1.0
-reinforcing defensive territory: 6
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 31: 0.0
-threat to 21: -44.0
-threat to 4: -71.0
-threat to 28: -74.0
-reinforcing front line
-potential deathstacks: {28, 31}
-dict_items([(6, 1), (28, 2), (31, 0)])
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (36, 2)])
 CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {0, 1, 4, 5, 6, 7, 8, 21, 28, 31}
-starting points:  [[28]]
-starting point power: 76
+war focus:  {3}
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  [[2]]
+starting point power: 12
 enemy territories in war focus:
-29 , power:  1
-30 , power:  1
-war_focus_enemy_power: 2
-current paths:  [[28]]
-current paths:  [[28, 29]]
+3 , power:  4
+war_focus_enemy_power: 4
 found 1, potential solutions
-starting power: 28 76
-path power: [29, 30] 2 2
-estimated remaining troops:  76.286
-turn:  3690
-sol: [[28, 29, 30]]
-attacking from 28 to 29 with 3 troops
-77
-turn:  3693
-sol: [[28, 29, 30]]
-attacking from 28 to 29 with 3 troops
-76
-moving 76
-turn:  3698
-sol: [[29, 30]]
-attacking from 29 to 30 with 3 troops
-75
-turn:  3701
-sol: [[29, 30]]
-attacking from 29 to 30 with 3 troops
-74
-turn:  3704
-sol: [[29, 30]]
-attacking from 29 to 30 with 3 troops
-73
-turn:  3707
-sol: [[29, 30]]
-attacking from 29 to 30 with 3 troops
-72
-moving 72
-turn:  3712
+starting power: 2 12
+path power: [3] 1 4
+estimated remaining troops:  7.571999999999999
+turn:  1051
+sol: [[2, 3]]
+attacking from 2 to 3 with 3 troops
+14
+turn:  1054
+sol: [[2, 3]]
+attacking from 2 to 3 with 3 troops
+14
+turn:  1057
+sol: [[2, 3]]
+attacking from 2 to 3 with 3 troops
+13
+moving 13
+turn:  1063
 CALCULATING ATTACK 
-war focus:  {2, 28, 29, 30, 31}
-my_territories:  {0, 1, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[30]]
-starting point power: 72
-enemy territories in war focus:
-2 , power:  1
-war_focus_enemy_power: 1
-current paths:  [[30]]
-found 1, potential solutions
-starting power: 30 72
-path power: [2] 1 1
-estimated remaining troops:  72.143
-sol: [[30, 2]]
-attacking from 30 to 2 with 3 troops
-71
-moving 71
-turn:  3717
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 1, 2, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [2], [4], [21]]
-starting point power: 208
-enemy territories in war focus:
-3 , power:  167
-war_focus_enemy_power: 167
-current paths:  [[0], [2], [4], [21]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 29: 1.0
-reinforcing defensive territory: 29
-threat to 6: 0.0
-threat to 7: 0.0
-threat to 8: 0.0
-threat to 21: -44.0
-threat to 2: -69.0
-threat to 4: -71.0
-reinforcing front line
-potential deathstacks: {8, 2, 6, 7}
-dict_items([(8, 2), (29, 1), (2, 135), (6, 0), (7, 0)])
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 1, 2, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [2], [4], [21]]
-starting point power: 208
-enemy territories in war focus:
-3 , power:  169
-war_focus_enemy_power: 169
-current paths:  [[0], [2], [4], [21]]
-found 0, potential solutions
-turn:  3784
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8}
-my_territories:  {0, 1, 2, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [2], [4], [8], [21]]
-starting point power: 347
-enemy territories in war focus:
-3 , power:  169
-war_focus_enemy_power: 169
-current paths:  [[0], [2], [4], [8], [21]]
-found 1, potential solutions
-starting power: 2 206
-path power: [3] 1 169
-estimated remaining troops:  62.167
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-205
-turn:  3787
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-203
-turn:  3790
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-202
-turn:  3793
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-200
-turn:  3796
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-200
-turn:  3799
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-198
-turn:  3802
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-197
-turn:  3805
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-197
-turn:  3808
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-195
-turn:  3811
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-195
-turn:  3814
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-194
-turn:  3817
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-192
-turn:  3820
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-191
-turn:  3823
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-190
-turn:  3826
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-189
-turn:  3829
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-189
-turn:  3832
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-189
-turn:  3835
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-188
-turn:  3838
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-186
-turn:  3841
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-185
-turn:  3844
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-183
-turn:  3847
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-182
-turn:  3850
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-181
-turn:  3853
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-181
-turn:  3856
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-179
-turn:  3859
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-177
-turn:  3862
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-177
-turn:  3865
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-176
-turn:  3868
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-176
-turn:  3871
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-175
-turn:  3874
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-173
-turn:  3877
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-171
-turn:  3880
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-169
-turn:  3883
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-169
-turn:  3886
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-167
-turn:  3889
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-167
-turn:  3892
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-165
-turn:  3895
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-163
-turn:  3898
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-163
-turn:  3901
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-163
-turn:  3904
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-163
-turn:  3907
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-163
-turn:  3910
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-162
-turn:  3913
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-160
-turn:  3916
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-160
-turn:  3919
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-158
-turn:  3922
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-158
-turn:  3925
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-158
-turn:  3928
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-158
-turn:  3931
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-156
-turn:  3934
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-154
-turn:  3937
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-154
-turn:  3940
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-154
-turn:  3943
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-153
-turn:  3946
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-152
-turn:  3949
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-151
-turn:  3952
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-151
-turn:  3955
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-149
-turn:  3958
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-149
-turn:  3961
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-148
-turn:  3964
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-146
-turn:  3967
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-145
-turn:  3970
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-144
-turn:  3973
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-143
-turn:  3976
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-143
-turn:  3979
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-142
-turn:  3982
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-140
-turn:  3985
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-139
-turn:  3988
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-139
-turn:  3991
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-138
-turn:  3994
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-138
-turn:  3997
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-138
-turn:  4000
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-137
-turn:  4003
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-137
-turn:  4006
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-135
-turn:  4009
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-135
-turn:  4012
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-135
-turn:  4015
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-134
-turn:  4018
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-134
-turn:  4021
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-134
-turn:  4024
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-133
-turn:  4027
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-131
-turn:  4030
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-131
-turn:  4033
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-129
-turn:  4036
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-128
-turn:  4039
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-126
-turn:  4042
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-125
-turn:  4045
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-125
-turn:  4048
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-125
-turn:  4051
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-125
-turn:  4054
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-124
-turn:  4057
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-122
-turn:  4060
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-120
-turn:  4063
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-120
-turn:  4066
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-119
-turn:  4069
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-119
-turn:  4072
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-119
-turn:  4075
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-117
-turn:  4078
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-117
-turn:  4081
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-117
-turn:  4084
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-117
-turn:  4087
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-116
-turn:  4090
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-116
-turn:  4093
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-114
-turn:  4096
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-114
-turn:  4099
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-114
-turn:  4102
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-113
-turn:  4105
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-111
-turn:  4108
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-110
-turn:  4111
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-110
-turn:  4114
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-108
-turn:  4117
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-106
-turn:  4120
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-106
-turn:  4123
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-105
-turn:  4126
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-105
-turn:  4129
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-104
-turn:  4132
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-104
-turn:  4135
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-102
-turn:  4138
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-101
-turn:  4141
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-99
-turn:  4144
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-97
-turn:  4147
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-95
-turn:  4150
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-93
-turn:  4153
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-93
-turn:  4156
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-91
-turn:  4159
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-90
-turn:  4162
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-90
-turn:  4165
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-90
-turn:  4168
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-89
-turn:  4171
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-88
-turn:  4174
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-88
-turn:  4177
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-87
-turn:  4180
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-86
-turn:  4183
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-85
-turn:  4186
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-84
-turn:  4189
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-84
-turn:  4192
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-82
-turn:  4195
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-80
-turn:  4198
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-80
-turn:  4201
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-80
-turn:  4204
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-79
-turn:  4207
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-77
-turn:  4210
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-76
-turn:  4213
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-75
-turn:  4216
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-73
-turn:  4219
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-71
-turn:  4222
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-70
-turn:  4225
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-69
-turn:  4228
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-67
-turn:  4231
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-66
-turn:  4234
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-64
-turn:  4237
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-63
-turn:  4240
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-61
-turn:  4243
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-60
-turn:  4246
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-58
-turn:  4249
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-56
-turn:  4252
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-54
-turn:  4255
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-53
-turn:  4258
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-52
-turn:  4261
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-52
-turn:  4264
-sol: [[2, 3]]
-attacking from 2 to 3 with 3 troops
-52
-moving 52
-turn:  4269
-CALCULATING ATTACK 
-war focus:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 21}
-my_territories:  {0, 1, 2, 3, 4, 5, 6, 7, 8, 21, 28, 29, 30, 31}
-starting points:  [[0], [3], [4], [8], [21]]
-starting point power: 193
-enemy territories in war focus:
-10 , power:  101
-war_focus_enemy_power: 101
-current paths:  [[0], [3], [4], [8], [21]]
-found 0, potential solutions
-sol: []
-no valid paths
-NOT FORTIFYING
-starting to distribute troops
-adding matching territory bonus
-reinforcing defensive territories
-threat to 4: -71.0
-reinforcing front line
-dict_items([(4, 3)])
-CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {4}
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
 starting points:  []
 starting point power: 0
 enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-30 , power:  1
-31 , power:  1
-war_focus_enemy_power: 4
+war_focus_enemy_power: 0
 heuristic based check failed
 found 0, potential solutions
-turn:  6166
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 7), (3, 5), (36, 5)])
 CALCULATING ATTACK 
-war focus:  {28, 29, 30, 31}
-my_territories:  {4}
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
 starting points:  []
 starting point power: 0
 enemy territories in war focus:
-28 , power:  1
-29 , power:  1
-30 , power:  1
-31 , power:  1
-war_focus_enemy_power: 4
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1113
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1155
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1188
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1233
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1278
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1308
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1367
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1499
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1547
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1607
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1689
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1728
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1761
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1857
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1896
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1947
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  1991
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2110
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2173
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2242
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2322
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2346
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2423
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2515
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2581
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2629
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2678
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2751
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2826
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  2879
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3008
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3079
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3190
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3254
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3328
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3385
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3449
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3509
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3563
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3668
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3723
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3777
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3854
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (3, 1), (36, 1)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  3938
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 3, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+sol: []
+no valid paths
+reinforcing defensive territories
+looking for front line to reinforce
+multiple start points, investigating different options
+potential starting points:  set()
+calculating combinations of len 1
+found sol:  []
+distributions
+dict_items([(2, 3), (36, 2)])
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
+heuristic based check failed
+found 0, potential solutions
+turn:  6987
+CALCULATING ATTACK 
+war focus:  set()
+my_territories:  {2, 36, 28, 29, 30, 31}
+starting points:  []
+starting point power: 0
+enemy territories in war focus:
+war_focus_enemy_power: 0
 heuristic based check failed
 found 0, potential solutions
 sol: []

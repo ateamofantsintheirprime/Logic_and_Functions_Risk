@@ -120,7 +120,7 @@ def handle_claim_territory(game: Game, bot_state: BotState, query: QueryClaimTer
 
 def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlaceInitialTroop) -> MovePlaceInitialTroop:
 	my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-	bot_state.max_search_depth = 2000
+	bot_state.max_search_depth = 10000
 
 	def covers_war_focus(mega_path:set):
 		return bot_state.war_focus.issubset(mega_path | my_territories)
@@ -856,7 +856,61 @@ def estimated_remaining_troops(game: Game, path:list[int]):
 
 	return attacker - 0.857 * sum(defenders) - len(defenders)
 
+def search_through_possible_positions(game: Game, bot_state: BotState, troop_total:int=0):
+	search_depth_limit = 30000
 
+	territory_troops = {
+		t : game.state.territories[t].troops
+		for t in game.state.map.get_vertices()
+	}
+
+	mine = game.state.get_territories_owned_by(game.state.me.player_id)
+	borders = set(game.state.get_all_border_territories(mine))
+
+	current_best_attack = []
+
+	while search_depth_limit > 0:
+		# step 1: quickly come up with a semi-random potential troop distribution 
+		potential_distribution = territory_troops.copy()
+		while troop_total > 0:
+			b = random.choice(borders)
+			if troop_total <= 4:
+				potential_distribution[b] += troop_total
+				troop_total = 0
+			else:
+				potential_distribution[b] += troop_total // 2
+				troop_total -= troop_total // 2
+
+	# step 2: quickly come up with a semi-random potential attack path using that troop distribution
+		# potential_attack = [[t] for t in borders if potential_distribution[t] > 2]
+		# for path in potential_attack:
+		# 	if path[-1]
+			# NOT FINISHED
+
+	# step 3: evaluate the resulting position
+		search_depth_limit -= 1
+	# repeat this process until we run out of time, keeping the one with the most optimal resulting postiion
+
+def evaluate_hypothetical_position(game: Game, territory_ownership: dict[int:set[int]]):
+	# key of 0 is me, key of anything else is someone else
+	income = {player : 0 for player in territory_ownership.keys()}
+
+	for player in territory_ownership.keys():
+		player_territories = territory_ownership[player]
+		income[player] += len(player_territories) // 3
+		for (continent_id, continent_territories) in game.state.map.get_continents().items():
+			if set(continent_territories).issubset(player_territories):
+				income[player] += game.state.map.get_continent_bonus(continent_id)
+	print("player incomes:")
+	for player in territory_ownership.keys():
+		print(f"{player}: {income[player]}")
+
+	income_value = 2* income[0] - sum(income.values())
+	# might look weird but this is just my income vs everyone elses
+
+	# in future add in tactical value where we account for our troops on choke points
+
+	return income_value
 
 if __name__ == "__main__":
 	main()
