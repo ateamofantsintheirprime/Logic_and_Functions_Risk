@@ -26,6 +26,21 @@ from risk_shared.records.record_attack import RecordAttack
 from risk_shared.records.types.move_type import MoveType
 
 
+from enum import Flag
+class ContinentState(Flag):
+    ENEMY    = 0
+    FRIENDLY = 1
+    CHANGED  = 2
+    LOST   = CHANGED | ENEMY
+    GAINED = CHANGED | FRIENDLY
+
+
+# Stop requesting these a bajillion times every turn AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+sa_territories = set()
+na_territories = set()
+eurafrica_territories = set()
+
+
 # We will store our enemy in the bot state.
 class BotState():
     def __init__(self):
@@ -34,9 +49,22 @@ class BotState():
         self.defending_continents = []
         self.attacking_continent = 3
 
-        self.controlling_SA = False
-        self.controlling_NA = False
-        self.controlling_EURAFRICA = False
+        self.SA_state = ContinentState.ENEMY
+        self.NA_state = ContinentState.ENEMY
+        self.EURAFRICA_state = ContinentState.ENEMY
+
+        # This is an array of attacks to perform during
+        # the attack stage. The following is an example
+        # of what two potential attacks could look like:
+        #     [
+        #         [2, 8, 6, 1, 0],
+        #         [7, 4]
+        #     ]
+        # The first element in the list is the starting
+        # territory, and subsequent elements define the
+        # chain of attack. Currently, there's no way to
+        # specify how many troops to attack with...
+        self.attacks = []
 
 
 def main():
@@ -45,6 +73,11 @@ def main():
     # track the state of the game.
     game = Game()
     bot_state = BotState()
+
+    sa_territories = set(game.state.map.get_continents()[3])
+    na_territories = set(game.state.map.get_continents()[0])
+    america_territories = sa_territories | na_territories
+    eurafrica_territories = set(game.state.map.get_continents()[1]) | set(game.state.map.get_continents()[4]) | set([22])
    
     # Respond to the engine's queries with your moves.
     while True:
@@ -59,9 +92,11 @@ def main():
             bot_state.attacking_continent = None # i think this works?    
 
 
-        bot_state.controlling_SA = check_if_controlling_sa(game)
-        bot_state.controlling_NA = check_if_controlling_na(game)
-        bot_state.controlling_EURAFRICA = check_if_controlling_eurafrica(game)
+        # If the state of South America hasn't
+        # changed, reset the "changed" flag.
+        bot_state.SA_state = update_continent_state(bot_state.SA_state, my_territories, sa_territories)
+        bot_state.NA_state = update_continent_state(bot_state.NA_state, my_territories, na_territories)
+        bot_state.EURAFRICA_state = update_continent_state(bot_state.EURAFRICA_state, my_territories, eurafrica_territories)
 
         # Based on the type of query, respond with the correct move.
         def choose_move(query: QueryType) -> MoveType:
@@ -104,9 +139,9 @@ def handle_claim_territory(game: Game, bot_state: BotState, query: QueryClaimTer
 
     # these are the strategically important regions at the start
     regions = {
-        "SA" :      set([31,30,28,29]) & unclaimed_territories,
+        "SA" :      sa_territories & unclaimed_territories,
         "SA_NEAR" : set([36,2,3,1,15,32,13,34,33]) & unclaimed_territories,
-        "NA" :      set([0,1,2,3,4,5,6,7]) & unclaimed_territories,
+        "NA" :      na_territories & unclaimed_territories,
         "NA_NEAR" : set([30,10,21,31,29,9,12,27,18,20]) & unclaimed_territories
     }
     priorities = [regions["SA"], regions["SA_NEAR"], regions['NA']]
@@ -153,7 +188,7 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
 
     enforcement_targets = set()
 
-    if bot_state.controlling_SA:
+    if bot_state.SA_state & ContinentState.FRIENDLY:
         if 2 in my_territories:
             if 8 in my_territories and 3 in my_territories:
                 enforcement_targets.update(set([3,8]))
@@ -268,7 +303,8 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
     border_territories = set(game.state.get_all_border_territories(list(my_territories)))
 
     choke_points = []
-    if bot_state.controlling_SA and bot_state.controlling_NA:
+    # If we've still got SA and NA, we can work on fortifying our chokes.
+    if bot_state.SA_state & bot_state.NA_state & ContinentState.FRIENDLY:
         if 21 in my_territories:
             choke_points.append(21)
         else:
@@ -295,7 +331,23 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
         return game.move_distribute_troops(query, distributions)
 
 
-    elif bot_state.controlling_SA and not bot_state.controlling_NA:
+    patch_territories = set()
+    if bot_state.SA_state == ContinentState.LOST:
+        patch_territories |= sa_territories
+    if bot_state.NA_state == ContinentState.LOST:
+        patch_territories |= na_territories
+    # If we've lost SA or NA since our last turn,
+    # we probably have some holes to patch up.
+    if patch_territories != {}:
+        # We should probably check if holes need to be patched
+        # when considering whether to turn in cards, as it's not
+        # worth saving them for a rainy day if we're getting owned.
+        patch_holes(game, bot_state, patch_territories & my_territories, patch_territories - my_territories)
+
+
+    # If we still have troops left over, we should
+    # use them to try and fortify SA and NA.
+    if bot_state.SA_state & ContinentState.FRIENDLY:
 
         if 2 in my_territories:
             choke_points.append(2)
@@ -306,7 +358,6 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
         else:
             choke_points.append(29)
         
-        na_territories = set([0,1,2,3,4,5,6,7])
         enemy_na_territories = na_territories - my_territories
         my_na_territories = na_territories & my_territories
         my_na_borders = my_na_territories & border_territories
@@ -332,11 +383,10 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
         distributions[choke_points[0]] += leftover_troops
         return game.move_distribute_troops(query, distributions)
 
-    elif not bot_state.controlling_SA:
+    else:
         # we assume this is a fight for SA and not just 'patching holes'.
         # this code is very repetitive i know.
 
-        sa_territories = set([30,29,31,28])
         enemy_sa_territories = sa_territories - my_territories
         my_sa_territories = sa_territories & my_territories
         my_sa_borders = my_sa_territories & border_territories
@@ -435,10 +485,10 @@ def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[
                 hamiltonian_warpath(current_paths, solutions)
                 p.pop(-1)
     
-    if bot_state.controlling_SA:
-        if bot_state.controlling_NA:
+    if bot_state.SA_state & ContinentState.FRIENDLY:
+        if bot_state.NA_state & ContinentState.FRIENDLY:
             # war_focus = some other continent to attack next
-            if bot_state.controlling_EURAFRICA:
+            if bot_state.EURAFRICA_state & ContinentState.FRIENDLY:
                 war_focus = set(game.state.map.get_continents()[5]) | set(game.state.map.get_continents()[2])
             else:
                 war_focus = set(game.state.map.get_continents()[1]) | set(game.state.map.get_continents()[4]) | set([22])
@@ -514,11 +564,10 @@ def handle_attack_old(game: Game, bot_state: BotState, query: QueryAttack) -> Un
     # We will attack someone.
     my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
     border_territories = set(game.state.get_all_adjacent_territories(my_territories))
-    sa_territories = set([30,29,31,28])
     my_sa_territories = sa_territories & my_territories
     enemy_sa_territories = sa_territories - my_territories
 
-    if not bot_state.controlling_SA and len(my_sa_territories) > 0:
+    if not bot_state.SA_state & ContinentState.FRIENDLY and len(my_sa_territories) > 0:
         # this is a fight for SA
         enemy_sa_territories = sa_territories - my_territories
         my_sa_borders = my_sa_territories & border_territories
@@ -551,7 +600,7 @@ def handle_attack_old(game: Game, bot_state: BotState, query: QueryAttack) -> Un
         # we cannot beat any enemy stack with any of our target stacks, then we just chill.
         return game.move_attack_pass(query)
 
-    if bot_state.controlling_SA and not bot_state.controlling_NA:
+    if bot_state.SA_state & ContinentState.FRIENDLY and not bot_state.NA_state & ContinentState.FRIENDLY:
         print("ATTACKING NA", flush=True)
         na_territories = set(game.state.map.get_continents()[0])
         my_na_territories =  my_territories & na_territories
@@ -707,22 +756,16 @@ def handle_fortify(game: Game, bot_state: BotState, query: QueryFortify) -> Unio
     else:
         return game.move_fortify_pass(query)
 
-def check_if_controlling_sa(game:Game):
-    my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-    # sa = set([30,31,29,28])
-    sa = set(game.state.map.get_continents()[3])
-    return set(sa).issubset(my_territories)
+def update_continent_state(old_state:ContinentState, my_territories:set, continent_territories:set) -> ContinentState:
+    current_state = ContinentState.FRIENDLY if set(continent_territories).issubset(my_territories) else ContinentState.ENEMY
+    # If we haven't taken or lost the continent
+    # since the last turn, reset the "changed" flag.
+    old_state &= ~ContinentState.CHANGED
+    if old_state == current_state:
+        return old_state
 
-def check_if_controlling_na(game:Game):
-    my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-    na = set(game.state.map.get_continents()[0])
-    # na = set([0,1,2,3,4,5,6,7,8])
-    return set(na).issubset(my_territories)
-
-def check_if_controlling_eurafrica(game:Game):
-    my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
-    eurafrica = set(game.state.map.get_continents()[1]) | set(game.state.map.get_continents()[4]) | set([22])
-    return set(eurafrica).issubset(my_territories)
+    # Otherwise, flip the state and set the "changed" flag.
+    return (old_state ^ (ContinentState.ENEMY | ContinentState.FRIENDLY)) | ContinentState.CHANGED
 
 def threat(game:Game, victim:int):
     threat = 0
@@ -782,6 +825,68 @@ def find_shortest_path_from_vertex_to_set(game: Game, source: int, target_set: s
         current = parent[current]
 
     return path[::-1]
+
+
+def find_connected_components(vertices:set[int], edges:dict[int, set]) -> set[frozenset[int]]:
+    """Find the connected components of the given graph.
+    We use the DSU (disjoint set union) algorithm."""
+
+    parents = dict((vertex, vertex) for vertex in vertices);
+    connected_components = dict()
+
+    # Iterate upwards through the graph until
+    # we find a vertex that is its own parent.
+    # This is the root of the connected component.
+    def find_root(vertex):
+        if parents[vertex] != vertex:
+            parents[vertex] = find_root(parents[vertex])
+        return parents[vertex]
+
+    # For each edge in the graph, set the parent of the starting
+    # vertex to be the parent of the ending vertex. This essentially
+    # merges connected vertices into one connected component.
+    for start in edges:
+        for end in edges[start]:
+            # Don't double count edges.
+            if start < end:
+                parents[find_root(start)] = find_root(end)
+
+    # Add each vertex to its connected component.
+    for vertex in vertices:
+        current_root = find_root(parents[vertex])
+        if current_root in connected_components:
+            connected_components[current_root].add(vertex)
+        else:
+            connected_components[current_root] = {current_root, vertex}
+
+    return {frozenset(connected_components[component]) for component in connected_components}
+
+
+def patch_holes(game:Game, bot_state:BotState, owned_vertices:set[int], enemy_vertices:set[int]):
+    """Identify any holes in a particular continent
+    and find good paths of attack to patch them."""
+
+    # Get the subset of graph edges between enemy vertices.
+    enemy_edges = dict((start, set(game.state.map.get_adjacent_to(start)) & set(enemy_vertices)) for start in enemy_vertices)
+    # If this continent has been attacked from multiple angles,
+    # we may have several connected components to reclaim.
+    connected_components = find_connected_components(enemy_vertices, enemy_edges)
+
+    # We've found the connected components, now we need a battle plan!
+    # The following procedure should be performed for each connected component.
+    #     1. Figure out a starting point. This should be our largest army
+    #        bordering an enemy node, prioritizing those next to endpoints.
+    #
+    #     2. While there are unvisited nodes remaining, choose our next
+    #        node to be the one with the fewest positive connections to
+    #        nodes we haven't visited. If we see multiple nodes with one
+    #        or zero connections, we'll need to create a splitting point.
+    #
+    #     3. Repeat the previous step starting at each splitting point.
+    # The result of this process is a list of (possibly fragmented) paths
+    # that visit every node in the connected component. While there are no
+    # doubt smarter ways to do this, we expect enemies to usually take linear
+    # paths through our territory, ending either randomly or before an army.
 
 
 def kill_deathstack(game:Game):
