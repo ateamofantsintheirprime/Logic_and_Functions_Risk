@@ -148,7 +148,7 @@ def handle_claim_territory(game: Game, bot_state: BotState, query: QueryClaimTer
             print(f"Claiming: {selection}", flush=True)
             return game.move_claim_territory(query, selection)
     selection = unclaimed_territories.pop()
-    print(f"No priority territories available, claiming {selection} randomly lol")
+    print(f"No priority territories available, claiming {selection} randomly lol", flush=True)
     # If all the priority regions are claimed just punt it randomly lol
     return game.move_claim_territory(query, selection)
 
@@ -252,9 +252,9 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
         for player in weakest_players:
             bordering_enemy_territories = set(game.state.get_all_adjacent_territories(my_territories)) & set(game.state.get_territories_owned_by(player.player_id))
             if len(bordering_enemy_territories) > 0:
-                # print("my territories", [game.state.map.get_vertex_name(x) for x in my_territories])
-                # print("bordering enemies", [game.state.map.get_vertex_name(x) for x in bordering_enemy_territories])
-                # print("adjacent to target", [game.state.map.get_vertex_name(x) for x in game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])])
+                # print("my territories", [game.state.map.get_vertex_name(x) for x in my_territories], flush=True)
+                # print("bordering enemies", [game.state.map.get_vertex_name(x) for x in bordering_enemy_territories], flush=True)
+                # print("adjacent to target", [game.state.map.get_vertex_name(x) for x in game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])], flush=True)
                 selected_territory = list(set(game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])) & set(my_territories))[0]
                 distributions[selected_territory] += total_troops
                 break
@@ -325,16 +325,16 @@ def handle_fortify(game: Game, bot_state: BotState, query: QueryFortify) -> Unio
     #     return game.move_fortify_pass(query) # this is grim
     
     # most_troops_territory = max(non_border_territories, key=lambda x: game.state.territories[x].troops)
-    # print("border territories: ",border_territories)
-    # print("most_troops_territory neighbours: ",game.state.map.get_adjacent_to(most_troops_territory))
+    # print("border territories: ",border_territories, flush=True)
+    # print("most_troops_territory neighbours: ",game.state.map.get_adjacent_to(most_troops_territory), flush=True)
 
     # fort_territories = fortifiable_territories(game,most_troops_territory)
 
-    # print("fortifiable territories: ",fort_territories)
+    # print("fortifiable territories: ",fort_territories, flush=True)
 
     # fortifiable_border_territories = set(border_territories) & set(fort_territories)
     
-    # print("fortifiable border territories: ",fortifiable_border_territories)
+    # print("fortifiable border territories: ",fortifiable_border_territories, flush=True)
 
     # most_threatened_fortifiable_territory = max(fortifiable_border_territories,key=lambda x: threat(game,x))
     # return game.move_fortify(query, most_troops_territory, most_threatened_fortifiable_territory, game.state.territories[most_troops_territory].troops - 1)

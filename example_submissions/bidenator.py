@@ -201,18 +201,18 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
         in_danger_territory = max(enforcement_targets, key=lambda x: threat(game,x))
 
         if threat(game, in_danger_territory) > 0:
-            print(f"placing troops on {in_danger_territory}")
+            print(f"placing troops on {in_danger_territory}", flush=True)
             return game.move_place_initial_troop(query, in_danger_territory)
 
         for terr in enforcement_targets:
             if game.state.territories[terr].troops < 5:
-                print(f"placing troops on {terr}")
+                print(f"placing troops on {terr}", flush=True)
                 return game.move_place_initial_troop(query, terr)
 
         # If none of our chokepoints are in danger, then we place units in the war for NA
         print("chokepoints are secure, fighting for NA", flush=True)
         na_borders = set([0,1,2,3,4,5,6,7]) & border_territories
-        print(f"na borders: {na_borders}")
+        print(f"na borders: {na_borders}", flush=True)
         if len(na_borders) == 0:
             # if we have no territory in Na just put it on venezuela
             print("no territory in NA, placing units on venezuela", flush=True)
@@ -221,14 +221,14 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
         in_danger_territory = max(na_borders, key=lambda x: threat(game,x))
 
         if threat(game, in_danger_territory) > 0:
-            print(f"placing troops on {in_danger_territory}")
+            print(f"placing troops on {in_danger_territory}", flush=True)
             return game.move_place_initial_troop(query, in_danger_territory)
 
         for terr in na_borders:
             if game.state.territories[terr].troops < 5:
-                print(f"placing troops on {terr}")
+                print(f"placing troops on {terr}", flush=True)
                 return game.move_place_initial_troop(query, terr)
-        print("placing on a random NA border")
+        print("placing on a random NA border", flush=True)
         return game.move_place_initial_troop(query, na_borders.pop())
     else:
         sa_territories = set([30,29,31,28])
@@ -236,16 +236,16 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
 
         if len(my_sa_territories) != 0:
             if 29 in my_territories:
-                print("placing troops on 29")
+                print("placing troops on 29", flush=True)
                 return game.move_place_initial_troop(query, 29)
             elif 31 in my_territories:
-                print("placing troops on 31")
+                print("placing troops on 31", flush=True)
                 return game.move_place_initial_troop(query, 31)
         # We will place troops along the territories on our border.
-        print("my sa territories:", my_sa_territories)
+        print("my sa territories:", my_sa_territories, flush=True)
         border_sa_territories = border_territories & set([31,30,28,29])
         in_danger_territory = max(border_sa_territories, key=lambda x: threat(game,x))
-        print(f"not in control of SA,, most in danger territory is {in_danger_territory}")
+        print(f"not in control of SA,, most in danger territory is {in_danger_territory}", flush=True)
         return game.move_place_initial_troop(query, in_danger_territory)
 
     raise Exception
@@ -459,9 +459,9 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
     #     for player in weakest_players:
     #         bordering_enemy_territories = set(game.state.get_all_adjacent_territories(my_territories)) & set(game.state.get_territories_owned_by(player.player_id))
     #         if len(bordering_enemy_territories) > 0:
-    #             print("my territories", [game.state.map.get_vertex_name(x) for x in my_territories])
-    #             print("bordering enemies", [game.state.map.get_vertex_name(x) for x in bordering_enemy_territories])
-    #             print("adjacent to target", [game.state.map.get_vertex_name(x) for x in game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])])
+    #             print("my territories", [game.state.map.get_vertex_name(x) for x in my_territories], flush=True)
+    #             print("bordering enemies", [game.state.map.get_vertex_name(x) for x in bordering_enemy_territories], flush=True)
+    #             print("adjacent to target", [game.state.map.get_vertex_name(x) for x in game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])], flush=True)
     #             selected_territory = list(set(game.state.map.get_adjacent_to(list(bordering_enemy_territories)[0])) & set(my_territories))[0]
     #             distributions[selected_territory] += total_troops
     #             break
@@ -470,7 +470,7 @@ def handle_distribute_troops(game: Game, bot_state: BotState, query: QueryDistri
     # return game.move_distribute_troops(query, distributions)
 
 def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[MoveAttack, MoveAttackPass]:
-    print("STARTING TURN ", len(game.state.recording))
+    print("STARTING TURN ", len(game.state.recording), flush=True)
     war_focus = set()
     my_territories = set(game.state.get_territories_owned_by(game.state.me.player_id))
 
@@ -508,7 +508,7 @@ def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[
         war_focus = set(game.state.map.get_continents()[3]) # SA
 
     # war_focus
-    print("war focus: ", war_focus)
+    print("war focus: ", war_focus, flush=True)
     path_solutions = []
     # path_starting_points = [[t] for t in war_focus & my_territories if game.state.territories[t].troops > 3]
     path_starting_points = (set(game.state.get_all_adjacent_territories(war_focus)) | war_focus) & my_territories # Starting points dont need to be inside of the war focus
@@ -520,24 +520,24 @@ def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[
     starting_point_power = sum([game.state.territories[t[0]].troops for t in path_starting_points])
     war_focus_enemy_power = sum([game.state.territories[t].troops for t in enemy_territories_in_war_focus])
     # num_troops_left_behind = len(enemy_territories_in_war_focus | set([t[0] for t in path_starting_points]))
-    print("starting point power:", starting_point_power)
-    print("enemy territories in war focus:", enemy_territories_in_war_focus)
-    print("war_focus_enemy_power:", war_focus_enemy_power)
-    # print("num_troops_left_behind:", num_troops_left_behind)
+    print("starting point power:", starting_point_power, flush=True)
+    print("enemy territories in war focus:", enemy_territories_in_war_focus, flush=True)
+    print("war_focus_enemy_power:", war_focus_enemy_power, flush=True)
+    # print("num_troops_left_behind:", num_troops_left_behind, flush=True)
     if starting_point_power > war_focus_enemy_power: # Dont factor in troops left behind, ends up making this too unoptimistic because attacking with high numbers is very good
         hamiltonian_warpath(path_starting_points, path_solutions)
     else:
-        print("heuristic based check failed")
+        print("heuristic based check failed", flush=True)
         return game.move_attack_pass(query)
     sol = []
     # print("path solutions:", path_solutions,flush=True)
     for s in path_solutions:
         found = True
-        # print("one possible solution: ", s)
+        # print("one possible solution: ", s, flush=True)
         for sub_path in s:
-            # print("starting power:", sub_path[0],game.state.territories[sub_path[0]].troops)
-            # print("path power:", sub_path[1:], len(sub_path[1:]), sum([game.state.territories[p_].troops for p_ in sub_path[1:]]))
-            # print("path validity:", game.state.territories[sub_path[0]].troops > sum([game.state.territories[t].troops for t in sub_path[1:]]))
+            # print("starting power:", sub_path[0],game.state.territories[sub_path[0]].troops, flush=True)
+            # print("path power:", sub_path[1:], len(sub_path[1:]), sum([game.state.territories[p_].troops for p_ in sub_path[1:]]), flush=True)
+            # print("path validity:", game.state.territories[sub_path[0]].troops > sum([game.state.territories[t].troops for t in sub_path[1:]]), flush=True)
 
             if game.state.territories[sub_path[0]].troops <= sum([game.state.territories[t].troops for t in sub_path[1:]]):
                 found = False
@@ -559,7 +559,7 @@ def handle_attack(game: Game, bot_state: BotState, query: QueryAttack) -> Union[
     source = path_to_progress_this_turn[0]
     target = path_to_progress_this_turn[1]
     print(f"attacking from {source} to {target} with {min(3, game.state.territories[source].troops - 1)} troops", flush=True)
-    print(game.state.territories[source].troops - 1)
+    print(game.state.territories[source].troops - 1, flush=True)
     return game.move_attack(query, source, target, min(3, game.state.territories[source].troops - 1))
 
 
@@ -794,13 +794,13 @@ def take_continent(game:Game, source:int, continent:str):
     enemy_territories = territories_of_continent - my_territories
 
     if len(enemy_territories) == 0:
-        print("you already have the continent!")
+        print("you already have the continent!", flush=True)
         return []
     
     total_enemy_power = sum([game.state.territories[t].troops for t in enemy_territories])
 
     if game.state.territories[source].troops - len(territories_of_continent) < total_enemy_power * 1.25 + 2:
-        print("not strong enough!")
+        print("not strong enough!", flush=True)
         return []
 
 
@@ -998,9 +998,9 @@ def kill_deathstack(game:Game):
     scariest_territory = max(enemy_territories, key=lambda x: game.state.territories[x].troops)
 
     if game.state.territories[strongest_territory].troops > game.state.territories[scariest_territory].troops * 1.15:
-        print("i can kill the largest deathstack")
+        print("i can kill the largest deathstack", flush=True)
         path = find_shortest_path_from_vertex_to_set(game, strongest_territory, scariest_territory)
-        print(f"path to them: {path}")
+        print(f"path to them: {path}", flush=True)
 
 
 def evaluate_troop_movement_quality(game:Game, territory_mask:set[int], troop_source:int, troop_dest:int, troop_number:int):
