@@ -144,39 +144,29 @@ def main():
 		def choose_move(query: QueryType) -> MoveType:
 			match query:
 				case QueryClaimTerritory() as q:
-					print("a", flush=True)
 					return handle_claim_territory(game, bot_state, q)
 
 				case QueryPlaceInitialTroop() as q:
-					print("b", flush=True)
 					return handle_place_initial_troop(game, bot_state, q)
 
 				case QueryRedeemCards() as q:
-					print("c", flush=True)
 					return handle_redeem_cards(game, bot_state, q)
 
 				case QueryDistributeTroops() as q:
-					print("d", flush=True)
 					res = handle_distribute_troops(game, bot_state, q)
-					print("e", flush=True)
 					calculate_attack_path(game, bot_state)
-					print("f", flush=True)
 					return res
 
 				case QueryAttack() as q:
-					print("g", flush=True)
 					return handle_attack(game, bot_state, q)
 
 				case QueryTroopsAfterAttack() as q:
-					print("h", flush=True)
 					return handle_troops_after_attack(game, bot_state, q)
 
 				case QueryDefend() as q:
-					print("i", flush=True)
 					return handle_defend(game, bot_state, q)
 
 				case QueryFortify() as q:
-					print("j", flush=True)
 					return handle_fortify(game, bot_state, q)
 		
 		# Send the move to the engine.
@@ -224,12 +214,9 @@ def handle_place_initial_troop(game: Game, bot_state: BotState, query: QueryPlac
 	num_starting_points = 1
 	while sol == None:
 		starting_point_combinations = combinations(list(bot_state.war_focus & bot_state.border_territories), num_starting_points)
-		print(starting_point_combinations, flush=True)
 		for starting_points in starting_point_combinations:
-			print(starting_points)
 			path_solutions = []
 			hamiltonian_warpath_simple(game, bot_state, [[p] for p in starting_points], path_solutions)
-			print("a")
 			if len(path_solutions) > 0:
 				print("path solutions:", path_solutions, flush=True)
 				# get the solution which has the most of its sub_paths ending at desired ending points
@@ -265,6 +252,14 @@ def handle_redeem_cards(game: Game, bot_state: BotState, query: QueryRedeemCards
 			# are adjacent to the territories we want to patch.
 			friendly_territories = set(game.state.get_all_adjacent_territories(enemy_territories)) & bot_state.border_territories
 			paths = patch_holes(game, bot_state, friendly_territories, enemy_territories)
+
+			# The outer loop represents the "main" path.
+			for i in enumerate(paths):
+				# The inner loop represents paths that splinter from the main one.
+				for j in range(i, len(paths)):
+					if j not in paths[i]:
+						continue
+					#
 
 	while len(cards_remaining) >= 5:
 		card_set = game.state.get_card_set(cards_remaining)
